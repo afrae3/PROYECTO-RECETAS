@@ -1,0 +1,143 @@
+<h2>Calendario Semanal</h2>
+
+<div *ngIf="mensaje" class="mensaje">
+  {{ mensaje }}
+</div>
+
+<div *ngIf="existeMenuEstaSemana && menuSemanalCompleto">
+  <div class="menu-header">
+    <h3 style="margin: 0;">
+      Menú Semanal 
+      <small>(del {{ fechaCreacionMenu }} al {{ fechaFinMenu }})</small>
+    </h3>
+    <div class="acciones-menu">
+      <button (click)="generarListaCompra()" class="btn-pdf" title="Descargar lista de compra detallada">
+        📄 Lista Completa
+      </button>
+      <button (click)="generarListaCheckbox()" class="btn-pdf" title="Descargar lista con checkbox para marcar">
+        ✓ Lista Checkbox
+      </button>
+      <button (click)="borrarMenu()" class="btn-borrar">
+        🗑️ Borrar Menú
+      </button>
+    </div>
+  </div>
+
+  <div class="menu-semanal">
+    <div *ngFor="let diaObj of diasSemana" class="dia-menu">
+      <h4>{{ diaObj.nombreCompleto }}</h4>
+
+      <div *ngIf="menuSemanalCompleto.recetasPorDia[diaObj.nombre.toLowerCase()] as comidas">
+        <div *ngFor="let r of comidas"
+             class="tarjeta"
+             [ngClass]="r.tipo"
+             [title]="'Cal: ' + (r.calorias||0) + ' kcal | Prot: ' + (r.proteinas||0) + ' g | Gras: ' + (r.grasas||0) + ' g | CH: ' + (r.carbohidratos||0) + ' g'">
+          <strong>{{ r.tipo | titlecase }}:</strong> {{ r.nombre }} 
+          <small>({{ r.porciones }} porciones, {{ r.tiempoPreparacion }} min)</small>
+        </div>
+      </div>
+
+      <div *ngIf="!menuSemanalCompleto.recetasPorDia[diaObj.nombre.toLowerCase()]">
+        <p>No hay recetas asignadas para este día.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="!existeMenuEstaSemana">
+  <div class="preferencias-container">
+    <h3>Introduce tus preferencias</h3>
+    
+    <p class="instrucciones-select">
+      💡 <strong>Tip:</strong> Mantén presionado <kbd>Ctrl</kbd> (Windows) o <kbd>Cmd</kbd> (Mac) 
+      y haz clic para seleccionar múltiples categorías
+    </p>
+
+    <div class="checkbox-container">
+      <label class="checkbox-label">
+        <input type="checkbox" [(ngModel)]="incluirDesayuno">
+        <span>Incluir Desayunos</span>
+      </label>
+    </div>
+
+    <div class="preferencias-grid">
+      <div class="preferencia-item" *ngIf="incluirDesayuno">
+        <label>Categorías para Desayuno:</label>
+        <select multiple [(ngModel)]="preferencias.desayuno" size="3">
+          <option *ngFor="let cat of categoriasDesayuno" [value]="cat">{{ cat }}</option>
+        </select>
+        <small class="seleccion-info">
+          {{ preferencias.desayuno.length === 0 ? 'Ninguna seleccionada (se usarán todas)' : 
+             preferencias.desayuno.length + ' categoría(s) seleccionada(s)' }}
+        </small>
+      </div>
+
+      <div class="preferencia-item">
+        <label>Categorías para Comida:</label>
+        <select multiple [(ngModel)]="preferencias.comida" size="5">
+          <option *ngFor="let cat of categoriasNombres" [value]="cat">{{ cat }}</option>
+        </select>
+        <small class="seleccion-info">
+          {{ preferencias.comida.length === 0 ? 'Ninguna seleccionada (se usarán todas)' : 
+             preferencias.comida.length + ' categoría(s) seleccionada(s)' }}
+        </small>
+      </div>
+
+      <div class="preferencia-item">
+        <label>Categorías para Cena:</label>
+        <select multiple [(ngModel)]="preferencias.cena" size="5">
+          <option *ngFor="let cat of categoriasNombres" [value]="cat">{{ cat }}</option>
+        </select>
+        <small class="seleccion-info">
+          {{ preferencias.cena.length === 0 ? 'Ninguna seleccionada (se usarán todas)' : 
+             preferencias.cena.length + ' categoría(s) seleccionada(s)' }}
+        </small>
+      </div>
+    </div>
+
+    <div class="botones-container">
+      <button (click)="generarMenu()">Generar Menú Semanal</button>
+      <button (click)="guardarMenu()">Guardar Menú</button>
+    </div>
+  </div>
+
+  <div *ngIf="menuGenerado && menuGenerado.length" class="menu-editable">
+    <h3>Menú generado (edítalo si quieres)</h3>
+    
+    <div *ngFor="let diaObj of diasSemana" class="dia-editable">
+      <h4>{{ diaObj.nombreCompleto }}</h4>
+
+      <div class="comida-selector">
+        <div class="selector-item" *ngIf="incluirDesayuno">
+          <label>Desayuno:</label>
+          <select [ngModel]="menuMap[diaObj.nombre + '-desayuno']?.recetaId"
+                  (ngModelChange)="sustituirReceta(diaObj.nombre, 'desayuno', $event)">
+            <option *ngFor="let r of filtrarRecetasPorCategoria('desayuno')" [value]="r.id">
+              {{ r.nombre }}
+            </option>
+          </select>
+        </div>
+
+        <div class="selector-item">
+          <label>Comida:</label>
+          <select [ngModel]="menuMap[diaObj.nombre + '-comida']?.recetaId"
+                  (ngModelChange)="sustituirReceta(diaObj.nombre, 'comida', $event)">
+            <option *ngFor="let r of filtrarRecetasPorCategoria('comida')" [value]="r.id">
+              {{ r.nombre }}
+            </option>
+          </select>
+        </div>
+
+        <div class="selector-item">
+          <label>Cena:</label>
+          <select [ngModel]="menuMap[diaObj.nombre + '-cena']?.recetaId"
+                  (ngModelChange)="sustituirReceta(diaObj.nombre, 'cena', $event)">
+            <option *ngFor="let r of filtrarRecetasPorCategoria('cena')" [value]="r.id">
+              {{ r.nombre }}
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

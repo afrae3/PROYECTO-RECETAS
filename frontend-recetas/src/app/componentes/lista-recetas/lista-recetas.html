@@ -1,0 +1,127 @@
+<div class="contenedor-principal">
+  <h2>Lista de Recetas</h2>
+
+  <div *ngIf="cargando" class="loading">
+    <p>Cargando recetas...</p>
+  </div>
+
+  <div *ngIf="!cargando">
+    <div class="filtros-container">
+      <div class="filtro-item">
+        <label for="categoriaSelect">Filtrar por categoría:</label>
+        <select id="categoriaSelect" [(ngModel)]="categoriaSeleccionada" (change)="onCategoriaChange()">
+          <option value="todas">Todas las categorías</option>
+          <option *ngFor="let cat of categorias" [value]="cat.id">{{ cat.nombre }}</option>
+        </select>
+      </div>
+
+      <div class="filtro-item">
+        <label for="tagBusqueda">Buscar por tags:</label>
+        <div class="autocomplete-container">
+          <input 
+            id="tagBusqueda"
+            type="text" 
+            [(ngModel)]="tagBusqueda"
+            (input)="onTagBusquedaChange()"
+            (blur)="cerrarSugerencias()"
+            placeholder="Ej: #Vegano, #BajoEnCalorias..."
+            class="tag-input">
+          
+          <ul class="sugerencias" *ngIf="mostrarSugerencias">
+            <li *ngFor="let tag of tagsSugeridos" 
+                (mousedown)="seleccionarTag(tag)"
+                class="sugerencia-item">
+              {{ tag.nombre }}
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="resultados-info">
+        <p>Mostrando {{ recetasFiltradas.length }} de {{ recetas.length }} recetas</p>
+      </div>
+    </div>
+
+    <div class="tags-seleccionados" *ngIf="tagsSeleccionados.length > 0">
+      <span class="tag-chip" *ngFor="let tag of tagsSeleccionados; let i = index">
+        {{ tag.nombre }}
+        <button type="button" (click)="quitarTagSeleccionado(i)" class="tag-chip-remove">×</button>
+      </span>
+    </div>
+
+    <div class="recetas-container">
+      <div *ngFor="let receta of recetasFiltradas" class="receta-card">
+        <img [src]="receta.imagen ? 'imagen/' + receta.imagen : 'imagen/comida2.jpg'" 
+             alt="{{ receta.nombre }}">
+        <div class="receta-info">
+          <h3>{{ receta.nombre }}</h3>
+          <span class="categoria-badge">{{ receta.categoriaNombre }}</span>
+          <p>{{ receta.descripcion }}</p>
+          <p><strong>Tiempo de preparación:</strong> {{ receta.tiempoPreparacion }} min</p>
+          <p><strong>Porciones:</strong> {{ receta.porciones }}</p>
+          <p><strong>Calorías:</strong> {{ receta.calorias }}</p>
+        
+          <button *ngIf="isLoggedIn()" (click)="toggleFavorito(receta)">
+            <span *ngIf="esFavorito(receta)">💔 Quitar de favoritos</span>
+            <span *ngIf="!esFavorito(receta)">❤️ Agregar a favoritos</span>
+          </button>
+
+          <button *ngIf="!isLoggedIn()" class="btn-login-required" (click)="irALogin()">
+            🔒 Inicia sesión para agregar a favoritos
+          </button>
+      
+          <button (click)="abrirModal(receta)">🔍 Detalles</button>
+        </div>
+      </div>
+    </div>
+
+    <div *ngIf="recetasFiltradas.length === 0" class="no-resultados">
+      <p>No se encontraron recetas con los filtros seleccionados</p>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal-backdrop" *ngIf="modalAbierto" (click)="cerrarModal()"></div>
+<div class="modal" *ngIf="modalAbierto && recetaSeleccionada">
+  <div class="modal-content">
+    <h2>{{ recetaSeleccionada.nombre }}</h2>
+    <span class="categoria-badge-modal">{{ recetaSeleccionada.categoriaNombre }}</span>
+    <p><strong>Descripción:</strong> {{ recetaSeleccionada.descripcion }}</p>
+    
+    <div *ngIf="recetaSeleccionada.ingredientes && recetaSeleccionada.ingredientes.length > 0">
+      <p><strong>Ingredientes:</strong></p>
+      <ul>
+        <li *ngFor="let ing of recetaSeleccionada.ingredientes">
+          {{ ing.nombre }} - {{ ing.cantidad }} {{ ing.medida }}
+        </li>
+      </ul>
+    </div>
+    
+    <div *ngIf="recetaSeleccionada.instrucciones && recetaSeleccionada.instrucciones.length > 0">
+      <p><strong>Instrucciones:</strong></p>
+      <ol>
+        <li *ngFor="let paso of recetaSeleccionada.instrucciones">{{ paso }}</li>
+      </ol>
+    </div>
+    
+    <p><strong>Categoría:</strong> {{ recetaSeleccionada.categoriaNombre }}</p>
+    <p><strong>Alérgenos:</strong> {{ recetaSeleccionada.alergenos?.join(', ') || 'Ninguno' }}</p>
+    <p><strong>Tags saludables:</strong> {{ recetaSeleccionada.tagsSaludables?.join(', ') || 'Ninguno' }}</p>
+    <p><strong>Dificultad:</strong> {{ recetaSeleccionada.dificultad || 'N/A' }}</p>
+    <p><strong>Tiempo de preparación:</strong> {{ recetaSeleccionada.tiempoPreparacion || 'N/A' }} min</p>
+    <p><strong>Porciones:</strong> {{ recetaSeleccionada.porciones || 'N/A' }}</p>
+    
+    <div class="info-nutricional">
+      <h3>Información Nutricional</h3>
+      <p><strong>Calorías:</strong> {{ recetaSeleccionada.calorias || 0 }} kcal</p>
+      <p><strong>Proteínas:</strong> {{ recetaSeleccionada.proteinas || 0 }} g</p>
+      <p><strong>Grasas:</strong> {{ recetaSeleccionada.grasas || 0 }} g</p>
+      <p><strong>Carbohidratos:</strong> {{ recetaSeleccionada.carbohidratos || 0 }} g</p>
+      <p><strong>Fibra:</strong> {{ recetaSeleccionada.fibra || 0 }} g</p>
+      <p><strong>Azúcares:</strong> {{ recetaSeleccionada.azucares || 0 }} g</p>
+    </div>
+
+    <button (click)="cerrarModal()">Cerrar</button>
+  </div>
+</div>

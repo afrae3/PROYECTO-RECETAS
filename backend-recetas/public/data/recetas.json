@@ -1,0 +1,3514 @@
+[
+  {
+    "nombre": "Pasta pesto con guisantes",
+    "descripcion": "Receta Pasta pesto con guisantes saludable y sabrosa.",
+    "ingredientes": [
+      "177 g de pasta integral",
+      "1 unidad(es) de aceite de oliva",
+      "1 unidad(es) de tofu",
+      "3 unidad(es) de harina integral",
+      "73 g de leche vegetal",
+      "25 g de berenjena",
+      "2 unidad(es) de jengibre",
+      "3 unidad(es) de espinacas"
+    ],
+    "instrucciones": "1. Cocer hasta que esté listo. 2. Servir hasta que esté listo. 3. Cocer los ingredientes. 4. Batir a fuego medio. 5. Hornear por 10 minutos. 6. Cocer por 10 minutos. 7. Picar los ingredientes.",
+    "tiempo_preparacion": 20,
+    "porciones": 2,
+    "calorias": 225,
+    "categoria": [
+      "equilibrada",
+      "paleo"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Pasta%20pesto%20con%20guisantes",
+    "proteinas": 10.7,
+    "grasas": 8.9,
+    "carbohidratos": 25.6,
+    "fibra": 9.4,
+    "azucares": 11.0,
+    "alergenos": [],
+    "tags_saludables": [
+      "bajo en azúcar"
+    ],
+    "popularidad": 150,
+    "fecha_creacion": "2025-09-23T09:22:23"
+  },
+  {
+    "nombre": "Minestrone",
+    "descripcion": "Receta Minestrone saludable y sabrosa.",
+    "ingredientes": [
+      "270 g de lechuga",
+      "3 unidad(es) de yogur",
+      "17 g de mantequilla",
+      "272 g de salmón",
+      "3 unidad(es) de pasta integral",
+      "284 g de plátano",
+      "3 unidad(es) de pimiento",
+      "124 g de lentejas"
+    ],
+    "instrucciones": "1. Hornear por 10 minutos. 2. Hornear por 10 minutos. 3. Batir por 10 minutos. 4. Servir hasta que esté listo. 5. Cocer por 10 minutos. 6. Cocer todo. 7. Saltear a fuego medio.",
+    "tiempo_preparacion": 35,
+    "porciones": 4,
+    "calorias": 542,
+    "categoria": [
+      "baja en carbohidratos",
+      "paleo"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Minestrone",
+    "proteinas": 9.0,
+    "grasas": 21.7,
+    "carbohidratos": 77.8,
+    "fibra": 5.0,
+    "azucares": 9.1,
+    "alergenos": [
+      "sésamo"
+    ],
+    "tags_saludables": [
+      "bajo en carbohidratos"
+    ],
+    "popularidad": 49,
+    "fecha_creacion": "2024-02-21T13:53:13"
+  },
+  {
+    "nombre": "Buddha bowl de garbanzos",
+    "descripcion": "Receta Buddha bowl de garbanzos saludable y sabrosa.",
+    "ingredientes": [
+      "171 g de tofu",
+      "2 unidad(es) de garbanzos",
+      "2 unidad(es) de avena",
+      "42 g de pasta integral",
+      "2 unidad(es) de sal",
+      "225 g de mantequilla",
+      "214 g de huevos"
+    ],
+    "instrucciones": "1. Mezclar por 10 minutos. 2. Servir todo. 3. Picar todo.",
+    "tiempo_preparacion": 35,
+    "porciones": 4,
+    "calorias": 455,
+    "categoria": [
+      "equilibrada",
+      "vegetariana"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Buddha%20bowl%20de%20garbanzos",
+    "proteinas": 24.3,
+    "grasas": 15.9,
+    "carbohidratos": 53.8,
+    "fibra": 7.4,
+    "azucares": 14.3,
+    "alergenos": [
+      "avena"
+    ],
+    "tags_saludables": [
+      "bajo en azúcar",
+      "rico en fibra",
+      "paleo-friendly"
+    ],
+    "popularidad": 131,
+    "fecha_creacion": "2023-12-20T16:54:28"
+  },
+  {
+    "nombre": "Ensalada mediterránea",
+    "descripcion": "Receta Ensalada mediterránea saludable y sabrosa.",
+    "ingredientes": [
+      "185 g de plátano",
+      "1 unidad(es) de mantequilla",
+      "1 unidad(es) de yogur",
+      "161 g de remolacha",
+      "1 unidad(es) de berenjena"
+    ],
+    "instrucciones": "1. Servir los ingredientes. 2. Batir a fuego medio. 3. Saltear por 10 minutos. 4. Picar los ingredientes. 5. Picar todo.",
+    "tiempo_preparacion": 10,
+    "porciones": 3,
+    "calorias": 343,
+    "categoria": [
+      "vegetariana",
+      "keto"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Ensalada%20mediterránea",
+    "proteinas": 17.4,
+    "grasas": 16.6,
+    "carbohidratos": 31.0,
+    "fibra": 3.5,
+    "azucares": 16.1,
+    "alergenos": [
+      "avena",
+      "soja"
+    ],
+    "tags_saludables": [
+      "vegano"
+    ],
+    "popularidad": 18,
+    "fecha_creacion": "2024-04-18T10:07:06"
+  },
+  {
+    "nombre": "Sopa miso con tofu",
+    "descripcion": "Receta Sopa miso con tofu saludable y sabrosa.",
+    "ingredientes": [
+      "43 g de ajos",
+      "275 g de espinacas",
+      "291 g de pollo",
+      "286 g de miel",
+      "38 g de quinoa"
+    ],
+    "instrucciones": "1. Cortar todo. 2. Saltear la mezcla. 3. Batir todo. 4. Batir los ingredientes. 5. Cortar la mezcla.",
+    "tiempo_preparacion": 10,
+    "porciones": 1,
+    "calorias": 498,
+    "categoria": [
+      "sin gluten"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Sopa%20miso%20con%20tofu",
+    "proteinas": 30.3,
+    "grasas": 22.8,
+    "carbohidratos": 43.0,
+    "fibra": 11.6,
+    "azucares": 21.7,
+    "alergenos": [],
+    "tags_saludables": [
+      "alto en proteínas",
+      "sin gluten"
+    ],
+    "popularidad": 27,
+    "fecha_creacion": "2024-03-16T03:38:39"
+  },
+  {
+    "nombre": "Ensalada de espinacas y fresas",
+    "descripcion": "Receta Ensalada de espinacas y fresas saludable y sabrosa.",
+    "ingredientes": [
+      "1 unidad(es) de pepino",
+      "266 g de garbanzos",
+      "137 g de cebolla",
+      "2 unidad(es) de limón",
+      "157 g de pimienta",
+      "2 unidad(es) de calabacín",
+      "279 g de sal",
+      "274 g de pasta integral"
+    ],
+    "instrucciones": "1. Mezclar por 10 minutos. 2. Hornear hasta que esté listo. 3. Cortar a fuego medio.",
+    "tiempo_preparacion": 35,
+    "porciones": 1,
+    "calorias": 487,
+    "categoria": [
+      "sin gluten"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Ensalada%20de%20espinacas%20y%20fresas",
+    "proteinas": 39.6,
+    "grasas": 17.7,
+    "carbohidratos": 42.4,
+    "fibra": 5.6,
+    "azucares": 18.3,
+    "alergenos": [],
+    "tags_saludables": [
+      "bajo en azúcar",
+      "sin gluten"
+    ],
+    "popularidad": 47,
+    "fecha_creacion": "2025-06-30T06:03:27"
+  },
+  {
+    "nombre": "Filete empanado al horno",
+    "descripcion": "Receta Filete empanado al horno saludable y sabrosa.",
+    "ingredientes": [
+      "269 g de champiñones",
+      "3 unidad(es) de remolacha",
+      "2 unidad(es) de lechuga",
+      "2 unidad(es) de pollo",
+      "1 unidad(es) de patatas",
+      "190 g de mantequilla",
+      "3 unidad(es) de tofu"
+    ],
+    "instrucciones": "1. Cortar la mezcla. 2. Batir todo. 3. Picar los ingredientes. 4. Saltear todo. 5. Mezclar la mezcla.",
+    "tiempo_preparacion": 35,
+    "porciones": 2,
+    "calorias": 506,
+    "categoria": [
+      "baja en carbohidratos",
+      "vegetariana"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Filete%20empanado%20al%20horno",
+    "proteinas": 10.2,
+    "grasas": 18.2,
+    "carbohidratos": 75.5,
+    "fibra": 7.9,
+    "azucares": 18.0,
+    "alergenos": [
+      "gluten"
+    ],
+    "tags_saludables": [
+      "bajo en grasa"
+    ],
+    "popularidad": 96,
+    "fecha_creacion": "2023-11-20T04:11:37"
+  },
+  {
+    "nombre": "Salteado de quinoa y verduras",
+    "descripcion": "Receta Salteado de quinoa y verduras saludable y sabrosa.",
+    "ingredientes": [
+      "2 unidad(es) de sal",
+      "277 g de tofu",
+      "158 g de limón",
+      "143 g de cebolla",
+      "2 unidad(es) de pepino",
+      "3 unidad(es) de almendras",
+      "2 unidad(es) de huevos",
+      "3 unidad(es) de lechuga",
+      "3 unidad(es) de berenjena"
+    ],
+    "instrucciones": "1. Hornear todo. 2. Cortar la mezcla. 3. Cocer la mezcla. 4. Picar la mezcla. 5. Mezclar a fuego medio. 6. Hornear a fuego medio. 7. Cocer por 10 minutos.",
+    "tiempo_preparacion": 30,
+    "porciones": 4,
+    "calorias": 393,
+    "categoria": [
+      "alta en proteínas"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Salteado%20de%20quinoa%20y%20verduras",
+    "proteinas": 37.9,
+    "grasas": 11.7,
+    "carbohidratos": 34.1,
+    "fibra": 5.9,
+    "azucares": 7.2,
+    "alergenos": [],
+    "tags_saludables": [
+      "bajo en grasa"
+    ],
+    "popularidad": 110,
+    "fecha_creacion": "2024-11-04T03:50:10"
+  },
+  {
+    "nombre": "Burrito vegetariano",
+    "descripcion": "Receta Burrito vegetariano saludable y sabrosa.",
+    "ingredientes": [
+      "2 unidad(es) de tomate",
+      "1 unidad(es) de arroz integral",
+      "1 unidad(es) de almendras",
+      "60 g de pepino",
+      "151 g de avena"
+    ],
+    "instrucciones": "1. Batir hasta que esté listo. 2. Cortar hasta que esté listo. 3. Batir hasta que esté listo.",
+    "tiempo_preparacion": 45,
+    "porciones": 2,
+    "calorias": 532,
+    "categoria": [
+      "paleo",
+      "alta en proteínas"
+    ],
+    "dificultad": "difícil",
+    "imagen": "https://via.placeholder.com/400x300?text=Burrito%20vegetariano",
+    "proteinas": 38.8,
+    "grasas": 16.2,
+    "carbohidratos": 57.8,
+    "fibra": 1.4,
+    "azucares": 9.0,
+    "alergenos": [],
+    "tags_saludables": [
+      "bajo en azúcar",
+      "vegano"
+    ],
+    "popularidad": 176,
+    "fecha_creacion": "2023-12-13T06:59:48"
+  },
+  {
+    "nombre": "Guiso de ternera",
+    "descripcion": "Receta Guiso de ternera saludable y sabrosa.",
+    "ingredientes": [
+      "155 g de patatas",
+      "150 g de huevos",
+      "87 g de yogur",
+      "53 g de sal",
+      "6 g de pimiento",
+      "214 g de queso feta"
+    ],
+    "instrucciones": "1. Picar hasta que esté listo. 2. Cocer por 10 minutos. 3. Saltear hasta que esté listo. 4. Servir hasta que esté listo.",
+    "tiempo_preparacion": 20,
+    "porciones": 4,
+    "calorias": 239,
+    "categoria": [
+      "baja en carbohidratos",
+      "paleo"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Guiso%20de%20ternera",
+    "proteinas": 7.1,
+    "grasas": 9.5,
+    "carbohidratos": 31.5,
+    "fibra": 2.3,
+    "azucares": 16.4,
+    "alergenos": [
+      "sésamo"
+    ],
+    "tags_saludables": [
+      "bajo en carbohidratos",
+      "alto en proteínas",
+      "paleo-friendly"
+    ],
+    "popularidad": 119,
+    "fecha_creacion": "2024-07-18T20:09:55"
+  },
+  {
+    "nombre": "Ensalada de espinacas y fresas",
+    "descripcion": "Receta Ensalada de espinacas y fresas saludable y sabrosa.",
+    "ingredientes": [
+      "1 unidad(es) de remolacha",
+      "179 g de tomate",
+      "2 unidad(es) de cebolla",
+      "185 g de jengibre"
+    ],
+    "instrucciones": "1. Batir todo. 2. Picar por 10 minutos. 3. Cortar hasta que esté listo. 4. Mezclar todo. 5. Picar todo.",
+    "tiempo_preparacion": 10,
+    "porciones": 2,
+    "calorias": 513,
+    "categoria": [
+      "keto"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Ensalada%20de%20espinacas%20y%20fresas",
+    "proteinas": 31.6,
+    "grasas": 21.6,
+    "carbohidratos": 48.1,
+    "fibra": 7.2,
+    "azucares": 8.5,
+    "alergenos": [
+      "marisco",
+      "gluten"
+    ],
+    "tags_saludables": [
+      "rico en fibra",
+      "paleo-friendly"
+    ],
+    "popularidad": 98,
+    "fecha_creacion": "2024-05-24T07:31:32"
+  },
+  {
+    "nombre": "Sopa miso con tofu rápido",
+    "descripcion": "Receta Sopa miso con tofu rápido saludable y sabrosa.",
+    "ingredientes": [
+      "3 unidad(es) de remolacha",
+      "79 g de almendras",
+      "80 g de queso feta",
+      "164 g de quinoa",
+      "27 g de tofu"
+    ],
+    "instrucciones": "1. Mezclar por 10 minutos. 2. Cocer hasta que esté listo. 3. Servir por 10 minutos. 4. Cortar los ingredientes. 5. Saltear a fuego medio.",
+    "tiempo_preparacion": 15,
+    "porciones": 2,
+    "calorias": 412,
+    "categoria": [
+      "paleo",
+      "keto"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Sopa%20miso%20con%20tofu%20rápido",
+    "proteinas": 27.6,
+    "grasas": 11.8,
+    "carbohidratos": 48.9,
+    "fibra": 6.8,
+    "azucares": 7.0,
+    "alergenos": [],
+    "tags_saludables": [
+      "bajo en carbohidratos",
+      "bajo en grasa"
+    ],
+    "popularidad": 55,
+    "fecha_creacion": "2023-10-31T10:21:29"
+  },
+  {
+    "nombre": "Pizza casera integral ligero",
+    "descripcion": "Receta Pizza casera integral ligero saludable y sabrosa.",
+    "ingredientes": [
+      "213 g de remolacha",
+      "71 g de quinoa",
+      "3 unidad(es) de leche vegetal",
+      "2 unidad(es) de miel",
+      "1 unidad(es) de avena",
+      "77 g de huevos",
+      "3 unidad(es) de cebolla",
+      "123 g de espinacas"
+    ],
+    "instrucciones": "1. Mezclar a fuego medio. 2. Picar hasta que esté listo. 3. Hornear todo. 4. Saltear los ingredientes. 5. Picar por 10 minutos. 6. Picar todo.",
+    "tiempo_preparacion": 60,
+    "porciones": 2,
+    "calorias": 568,
+    "categoria": [
+      "alta en proteínas",
+      "baja en carbohidratos"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Pizza%20casera%20integral%20ligero",
+    "proteinas": 36.1,
+    "grasas": 17.2,
+    "carbohidratos": 67.3,
+    "fibra": 8.7,
+    "azucares": 8.6,
+    "alergenos": [
+      "sésamo"
+    ],
+    "tags_saludables": [
+      "sencillo",
+      "paleo-friendly"
+    ],
+    "popularidad": 93,
+    "fecha_creacion": "2024-09-23T02:27:00"
+  },
+  {
+    "nombre": "Ensalada tibia de remolacha",
+    "descripcion": "Receta Ensalada tibia de remolacha saludable y sabrosa.",
+    "ingredientes": [
+      "2 unidad(es) de tofu",
+      "3 unidad(es) de aguacate",
+      "2 unidad(es) de leche vegetal",
+      "100 g de lechuga",
+      "96 g de pimiento",
+      "63 g de miel",
+      "2 unidad(es) de remolacha",
+      "1 unidad(es) de patatas"
+    ],
+    "instrucciones": "1. Mezclar por 10 minutos. 2. Hornear todo. 3. Cortar la mezcla.",
+    "tiempo_preparacion": 60,
+    "porciones": 3,
+    "calorias": 366,
+    "categoria": [
+      "alta en proteínas"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Ensalada%20tibia%20de%20remolacha",
+    "proteinas": 35.4,
+    "grasas": 13.9,
+    "carbohidratos": 25.0,
+    "fibra": 4.2,
+    "azucares": 19.1,
+    "alergenos": [
+      "huevo",
+      "avena"
+    ],
+    "tags_saludables": [
+      "keto-friendly",
+      "rico en fibra"
+    ],
+    "popularidad": 43,
+    "fecha_creacion": "2024-01-15T02:06:16"
+  },
+  {
+    "nombre": "Pollo al curry",
+    "descripcion": "Receta Pollo al curry saludable y sabrosa.",
+    "ingredientes": [
+      "5 g de salmón",
+      "1 unidad(es) de tomate",
+      "3 unidad(es) de harina integral",
+      "19 g de garbanzos"
+    ],
+    "instrucciones": "1. Mezclar a fuego medio. 2. Servir hasta que esté listo. 3. Cocer hasta que esté listo.",
+    "tiempo_preparacion": 10,
+    "porciones": 2,
+    "calorias": 565,
+    "categoria": [
+      "baja en carbohidratos",
+      "paleo"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Pollo%20al%20curry",
+    "proteinas": 28.1,
+    "grasas": 15.1,
+    "carbohidratos": 79.2,
+    "fibra": 5.4,
+    "azucares": 7.8,
+    "alergenos": [],
+    "tags_saludables": [
+      "alto en proteínas"
+    ],
+    "popularidad": 135,
+    "fecha_creacion": "2025-05-16T09:37:49"
+  },
+  {
+    "nombre": "Ensalada de pepino y menta",
+    "descripcion": "Receta Ensalada de pepino y menta saludable y sabrosa.",
+    "ingredientes": [
+      "3 unidad(es) de arroz integral",
+      "2 unidad(es) de aguacate",
+      "144 g de limón",
+      "2 unidad(es) de jengibre",
+      "13 g de pimiento",
+      "1 unidad(es) de aceite de oliva",
+      "120 g de harina integral"
+    ],
+    "instrucciones": "1. Picar los ingredientes. 2. Batir los ingredientes. 3. Servir los ingredientes. 4. Cocer los ingredientes. 5. Servir la mezcla. 6. Cortar a fuego medio. 7. Mezclar a fuego medio.",
+    "tiempo_preparacion": 30,
+    "porciones": 1,
+    "calorias": 172,
+    "categoria": [
+      "baja en carbohidratos"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Ensalada%20de%20pepino%20y%20menta",
+    "proteinas": 15.5,
+    "grasas": 6.0,
+    "carbohidratos": 14.2,
+    "fibra": 1.0,
+    "azucares": 10.1,
+    "alergenos": [],
+    "tags_saludables": [
+      "keto-friendly"
+    ],
+    "popularidad": 44,
+    "fecha_creacion": "2023-12-07T03:43:00"
+  },
+  {
+    "nombre": "Tarta salada de espinacas",
+    "descripcion": "Receta Tarta salada de espinacas saludable y sabrosa.",
+    "ingredientes": [
+      "75 g de sal",
+      "165 g de pepino",
+      "211 g de champiñones",
+      "168 g de pasta integral",
+      "79 g de lentejas",
+      "151 g de pimienta",
+      "246 g de salmón",
+      "92 g de espinacas"
+    ],
+    "instrucciones": "1. Saltear a fuego medio. 2. Hornear por 10 minutos. 3. Servir por 10 minutos. 4. Servir todo.",
+    "tiempo_preparacion": 10,
+    "porciones": 2,
+    "calorias": 583,
+    "categoria": [
+      "vegetariana",
+      "alta en proteínas"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Tarta%20salada%20de%20espinacas",
+    "proteinas": 30.3,
+    "grasas": 20.4,
+    "carbohidratos": 69.7,
+    "fibra": 8.7,
+    "azucares": 13.4,
+    "alergenos": [],
+    "tags_saludables": [
+      "rico en fibra",
+      "bajo en azúcar",
+      "paleo-friendly"
+    ],
+    "popularidad": 46,
+    "fecha_creacion": "2024-10-22T14:44:16"
+  },
+  {
+    "nombre": "Ensalada de quinoa",
+    "descripcion": "Receta Ensalada de quinoa saludable y sabrosa.",
+    "ingredientes": [
+      "1 unidad(es) de aguacate",
+      "3 unidad(es) de miel",
+      "3 unidad(es) de pasta integral",
+      "1 unidad(es) de tofu",
+      "298 g de huevos",
+      "2 unidad(es) de ajos"
+    ],
+    "instrucciones": "1. Mezclar todo. 2. Cocer por 10 minutos. 3. Mezclar todo. 4. Mezclar todo. 5. Servir hasta que esté listo.",
+    "tiempo_preparacion": 10,
+    "porciones": 1,
+    "calorias": 466,
+    "categoria": [
+      "sin gluten",
+      "vegetariana"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Ensalada%20de%20quinoa",
+    "proteinas": 15.4,
+    "grasas": 21.3,
+    "carbohidratos": 53.2,
+    "fibra": 10.8,
+    "azucares": 18.3,
+    "alergenos": [],
+    "tags_saludables": [
+      "rico en fibra",
+      "sin gluten"
+    ],
+    "popularidad": 54,
+    "fecha_creacion": "2025-03-15T04:35:59"
+  },
+  {
+    "nombre": "Crepes integrales rellenos",
+    "descripcion": "Receta Crepes integrales rellenos saludable y sabrosa.",
+    "ingredientes": [
+      "191 g de pollo",
+      "3 unidad(es) de pimiento",
+      "3 unidad(es) de sal",
+      "17 g de cebolla",
+      "2 unidad(es) de lentejas",
+      "1 unidad(es) de queso feta"
+    ],
+    "instrucciones": "1. Picar hasta que esté listo. 2. Mezclar por 10 minutos. 3. Hornear por 10 minutos. 4. Hornear hasta que esté listo. 5. Batir por 10 minutos. 6. Cocer todo.",
+    "tiempo_preparacion": 60,
+    "porciones": 4,
+    "calorias": 287,
+    "categoria": [
+      "sin gluten",
+      "paleo"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Crepes%20integrales%20rellenos",
+    "proteinas": 10.0,
+    "grasas": 8.8,
+    "carbohidratos": 42.0,
+    "fibra": 8.0,
+    "azucares": 11.6,
+    "alergenos": [
+      "frutos secos"
+    ],
+    "tags_saludables": [
+      "alto en proteínas",
+      "keto-friendly",
+      "bajo en carbohidratos"
+    ],
+    "popularidad": 122,
+    "fecha_creacion": "2025-08-26T02:01:47"
+  },
+  {
+    "nombre": "Polenta con champiñones",
+    "descripcion": "Receta Polenta con champiñones saludable y sabrosa.",
+    "ingredientes": [
+      "266 g de huevos",
+      "242 g de yogur",
+      "2 unidad(es) de cebolla",
+      "3 unidad(es) de garbanzos"
+    ],
+    "instrucciones": "1. Cocer a fuego medio. 2. Saltear hasta que esté listo. 3. Picar por 10 minutos. 4. Cortar los ingredientes. 5. Picar hasta que esté listo. 6. Picar los ingredientes. 7. Batir hasta que esté listo.",
+    "tiempo_preparacion": 60,
+    "porciones": 3,
+    "calorias": 364,
+    "categoria": [
+      "alta en proteínas"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Polenta%20con%20champiñones",
+    "proteinas": 10.2,
+    "grasas": 23.2,
+    "carbohidratos": 28.6,
+    "fibra": 7.4,
+    "azucares": 1.2,
+    "alergenos": [],
+    "tags_saludables": [
+      "bajo en azúcar"
+    ],
+    "popularidad": 69,
+    "fecha_creacion": "2024-06-02T01:12:24"
+  },
+  {
+    "nombre": "Salmón marinado en soja express",
+    "descripcion": "Receta Salmón marinado en soja express saludable y sabrosa.",
+    "ingredientes": [
+      "108 g de pimiento",
+      "2 unidad(es) de lentejas",
+      "1 unidad(es) de salmón",
+      "2 unidad(es) de tomate",
+      "165 g de aceite de oliva",
+      "118 g de lechuga",
+      "240 g de patatas",
+      "2 unidad(es) de huevos"
+    ],
+    "instrucciones": "1. Mezclar todo. 2. Servir hasta que esté listo. 3. Mezclar por 10 minutos. 4. Hornear por 10 minutos. 5. Picar los ingredientes. 6. Picar todo.",
+    "tiempo_preparacion": 25,
+    "porciones": 2,
+    "calorias": 254,
+    "categoria": [
+      "equilibrada"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Salmón%20marinado%20en%20soja%20express",
+    "proteinas": 15.5,
+    "grasas": 4.7,
+    "carbohidratos": 37.6,
+    "fibra": 11.8,
+    "azucares": 8.7,
+    "alergenos": [],
+    "tags_saludables": [
+      "bajo en grasa"
+    ],
+    "popularidad": 26,
+    "fecha_creacion": "2025-03-23T13:23:05"
+  },
+  {
+    "nombre": "Sopa de lentejas ligero",
+    "descripcion": "Receta Sopa de lentejas ligero saludable y sabrosa.",
+    "ingredientes": [
+      "77 g de mantequilla",
+      "3 unidad(es) de pimienta",
+      "50 g de sal",
+      "1 unidad(es) de salmón",
+      "9 g de berenjena",
+      "3 unidad(es) de jengibre",
+      "2 unidad(es) de remolacha",
+      "183 g de ajos"
+    ],
+    "instrucciones": "1. Cortar por 10 minutos. 2. Batir los ingredientes. 3. Mezclar todo. 4. Batir la mezcla. 5. Cocer hasta que esté listo. 6. Batir hasta que esté listo.",
+    "tiempo_preparacion": 15,
+    "porciones": 2,
+    "calorias": 402,
+    "categoria": [
+      "vegana"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Sopa%20de%20lentejas%20ligero",
+    "proteinas": 5.7,
+    "grasas": 16.5,
+    "carbohidratos": 57.7,
+    "fibra": 9.6,
+    "azucares": 19.4,
+    "alergenos": [
+      "pescado"
+    ],
+    "tags_saludables": [
+      "alto en proteínas"
+    ],
+    "popularidad": 92,
+    "fecha_creacion": "2025-05-26T03:01:49"
+  },
+  {
+    "nombre": "Pollo a la plancha con limón",
+    "descripcion": "Receta Pollo a la plancha con limón saludable y sabrosa.",
+    "ingredientes": [
+      "1 unidad(es) de plátano",
+      "3 unidad(es) de lentejas",
+      "1 unidad(es) de salmón",
+      "76 g de arroz integral",
+      "2 unidad(es) de quinoa"
+    ],
+    "instrucciones": "1. Cocer todo. 2. Cocer hasta que esté listo. 3. Picar por 10 minutos.",
+    "tiempo_preparacion": 25,
+    "porciones": 1,
+    "calorias": 324,
+    "categoria": [
+      "paleo"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Pollo%20a%20la%20plancha%20con%20limón",
+    "proteinas": 5.4,
+    "grasas": 22.8,
+    "carbohidratos": 24.3,
+    "fibra": 7.4,
+    "azucares": 15.8,
+    "alergenos": [],
+    "tags_saludables": [
+      "vegano",
+      "keto-friendly"
+    ],
+    "popularidad": 146,
+    "fecha_creacion": "2023-11-24T23:34:27"
+  },
+  {
+    "nombre": "Tacos de pescado express",
+    "descripcion": "Receta Tacos de pescado express saludable y sabrosa.",
+    "ingredientes": [
+      "145 g de aceite de oliva",
+      "262 g de champiñones",
+      "182 g de garbanzos",
+      "3 unidad(es) de quinoa",
+      "3 unidad(es) de tofu",
+      "76 g de pasta integral",
+      "3 unidad(es) de lentejas",
+      "1 unidad(es) de salmón",
+      "90 g de calabacín"
+    ],
+    "instrucciones": "1. Hornear a fuego medio. 2. Batir a fuego medio. 3. Cocer la mezcla. 4. Hornear todo. 5. Picar la mezcla. 6. Batir todo. 7. Picar los ingredientes.",
+    "tiempo_preparacion": 30,
+    "porciones": 1,
+    "calorias": 231,
+    "categoria": [
+      "keto"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Tacos%20de%20pescado%20express",
+    "proteinas": 31.0,
+    "grasas": 4.3,
+    "carbohidratos": 17.2,
+    "fibra": 9.9,
+    "azucares": 19.2,
+    "alergenos": [
+      "avena"
+    ],
+    "tags_saludables": [
+      "keto-friendly"
+    ],
+    "popularidad": 135,
+    "fecha_creacion": "2025-01-12T10:05:20"
+  },
+  {
+    "nombre": "Pisto manchego clásico",
+    "descripcion": "Receta Pisto manchego clásico saludable y sabrosa.",
+    "ingredientes": [
+      "1 unidad(es) de harina integral",
+      "12 g de limón",
+      "138 g de tofu",
+      "1 unidad(es) de champiñones",
+      "42 g de pimiento"
+    ],
+    "instrucciones": "1. Cocer a fuego medio. 2. Batir la mezcla. 3. Batir hasta que esté listo. 4. Picar por 10 minutos. 5. Batir la mezcla. 6. Hornear hasta que esté listo. 7. Batir la mezcla.",
+    "tiempo_preparacion": 20,
+    "porciones": 3,
+    "calorias": 466,
+    "categoria": [
+      "keto",
+      "vegana"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Pisto%20manchego%20clásico",
+    "proteinas": 33.0,
+    "grasas": 7.7,
+    "carbohidratos": 66.4,
+    "fibra": 7.9,
+    "azucares": 16.2,
+    "alergenos": [
+      "sésamo"
+    ],
+    "tags_saludables": [
+      "bajo en grasa"
+    ],
+    "popularidad": 198,
+    "fecha_creacion": "2024-09-12T04:09:28"
+  },
+  {
+    "nombre": "Cazuela de verduras gratinadas rápido",
+    "descripcion": "Receta Cazuela de verduras gratinadas rápido saludable y sabrosa.",
+    "ingredientes": [
+      "190 g de calabacín",
+      "1 unidad(es) de lechuga",
+      "227 g de jengibre",
+      "269 g de yogur",
+      "2 unidad(es) de aceite de oliva",
+      "44 g de aguacate",
+      "1 unidad(es) de patatas",
+      "270 g de lentejas",
+      "2 unidad(es) de miel"
+    ],
+    "instrucciones": "1. Servir los ingredientes. 2. Mezclar la mezcla. 3. Batir la mezcla. 4. Servir a fuego medio. 5. Batir a fuego medio.",
+    "tiempo_preparacion": 25,
+    "porciones": 3,
+    "calorias": 509,
+    "categoria": [
+      "keto",
+      "paleo"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Cazuela%20de%20verduras%20gratinadas%20rápido",
+    "proteinas": 25.8,
+    "grasas": 13.5,
+    "carbohidratos": 71.1,
+    "fibra": 2.0,
+    "azucares": 19.3,
+    "alergenos": [
+      "huevo"
+    ],
+    "tags_saludables": [
+      "bajo en grasa",
+      "keto-friendly"
+    ],
+    "popularidad": 57,
+    "fecha_creacion": "2023-11-27T21:01:28"
+  },
+  {
+    "nombre": "Tarta salada de espinacas ligero",
+    "descripcion": "Receta Tarta salada de espinacas ligero saludable y sabrosa.",
+    "ingredientes": [
+      "248 g de pimiento",
+      "153 g de lentejas",
+      "230 g de ajos",
+      "1 unidad(es) de leche vegetal",
+      "1 unidad(es) de almendras",
+      "86 g de avena",
+      "1 unidad(es) de quinoa",
+      "3 unidad(es) de harina integral"
+    ],
+    "instrucciones": "1. Cortar la mezcla. 2. Servir por 10 minutos. 3. Picar la mezcla. 4. Cortar hasta que esté listo. 5. Saltear por 10 minutos. 6. Saltear todo.",
+    "tiempo_preparacion": 40,
+    "porciones": 2,
+    "calorias": 464,
+    "categoria": [
+      "paleo",
+      "baja en carbohidratos"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Tarta%20salada%20de%20espinacas%20ligero",
+    "proteinas": 21.5,
+    "grasas": 18.0,
+    "carbohidratos": 54.2,
+    "fibra": 9.9,
+    "azucares": 19.2,
+    "alergenos": [],
+    "tags_saludables": [
+      "bajo en grasa",
+      "keto-friendly",
+      "bajo en carbohidratos"
+    ],
+    "popularidad": 132,
+    "fecha_creacion": "2025-06-09T08:00:03"
+  },
+  {
+    "nombre": "Ensalada tibia de remolacha",
+    "descripcion": "Receta Ensalada tibia de remolacha saludable y sabrosa.",
+    "ingredientes": [
+      "32 g de limón",
+      "1 unidad(es) de plátano",
+      "194 g de pollo",
+      "105 g de cebolla",
+      "52 g de yogur",
+      "169 g de arroz integral",
+      "50 g de pimiento",
+      "1 unidad(es) de queso feta",
+      "2 unidad(es) de espinacas"
+    ],
+    "instrucciones": "1. Cortar hasta que esté listo. 2. Batir a fuego medio. 3. Mezclar todo. 4. Cocer los ingredientes. 5. Mezclar por 10 minutos.",
+    "tiempo_preparacion": 10,
+    "porciones": 3,
+    "calorias": 533,
+    "categoria": [
+      "paleo"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Ensalada%20tibia%20de%20remolacha",
+    "proteinas": 25.9,
+    "grasas": 17.4,
+    "carbohidratos": 68.2,
+    "fibra": 4.3,
+    "azucares": 22.4,
+    "alergenos": [],
+    "tags_saludables": [
+      "paleo-friendly",
+      "sencillo"
+    ],
+    "popularidad": 98,
+    "fecha_creacion": "2025-05-24T22:55:58"
+  },
+  {
+    "nombre": "Risotto de calabacín ligero",
+    "descripcion": "Receta Risotto de calabacín ligero saludable y sabrosa.",
+    "ingredientes": [
+      "2 unidad(es) de patatas",
+      "96 g de tomate",
+      "2 unidad(es) de espinacas",
+      "1 unidad(es) de pimienta"
+    ],
+    "instrucciones": "1. Mezclar los ingredientes. 2. Batir los ingredientes. 3. Cortar la mezcla.",
+    "tiempo_preparacion": 60,
+    "porciones": 2,
+    "calorias": 270,
+    "categoria": [
+      "sin gluten",
+      "paleo"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Risotto%20de%20calabacín%20ligero",
+    "proteinas": 16.3,
+    "grasas": 8.0,
+    "carbohidratos": 33.2,
+    "fibra": 9.5,
+    "azucares": 5.5,
+    "alergenos": [],
+    "tags_saludables": [
+      "paleo-friendly"
+    ],
+    "popularidad": 79,
+    "fecha_creacion": "2024-07-19T09:23:49"
+  },
+  {
+    "nombre": "Pasta integral con verduras",
+    "descripcion": "Receta Pasta integral con verduras saludable y sabrosa.",
+    "ingredientes": [
+      "1 unidad(es) de limón",
+      "1 unidad(es) de calabacín",
+      "148 g de huevos",
+      "103 g de leche vegetal",
+      "77 g de garbanzos",
+      "172 g de berenjena",
+      "285 g de espinacas",
+      "69 g de lechuga"
+    ],
+    "instrucciones": "1. Saltear hasta que esté listo. 2. Cocer a fuego medio. 3. Picar los ingredientes. 4. Saltear todo.",
+    "tiempo_preparacion": 45,
+    "porciones": 1,
+    "calorias": 287,
+    "categoria": [
+      "equilibrada"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Pasta%20integral%20con%20verduras",
+    "proteinas": 10.4,
+    "grasas": 7.2,
+    "carbohidratos": 45.2,
+    "fibra": 5.4,
+    "azucares": 6.5,
+    "alergenos": [],
+    "tags_saludables": [
+      "sencillo",
+      "paleo-friendly"
+    ],
+    "popularidad": 45,
+    "fecha_creacion": "2024-08-06T13:27:01"
+  },
+  {
+    "nombre": "Pasta pesto con guisantes",
+    "descripcion": "Receta Pasta pesto con guisantes saludable y sabrosa.",
+    "ingredientes": [
+      "99 g de aceite de oliva",
+      "2 unidad(es) de jengibre",
+      "186 g de leche vegetal",
+      "1 unidad(es) de limón",
+      "28 g de remolacha",
+      "227 g de calabacín",
+      "126 g de queso feta"
+    ],
+    "instrucciones": "1. Batir por 10 minutos. 2. Saltear por 10 minutos. 3. Cocer hasta que esté listo. 4. Saltear los ingredientes. 5. Hornear la mezcla. 6. Picar a fuego medio. 7. Cortar la mezcla.",
+    "tiempo_preparacion": 45,
+    "porciones": 3,
+    "calorias": 604,
+    "categoria": [
+      "keto"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Pasta%20pesto%20con%20guisantes",
+    "proteinas": 20.2,
+    "grasas": 24.6,
+    "carbohidratos": 75.5,
+    "fibra": 3.3,
+    "azucares": 16.2,
+    "alergenos": [
+      "avena"
+    ],
+    "tags_saludables": [
+      "sin gluten",
+      "alto en proteínas",
+      "bajo en azúcar"
+    ],
+    "popularidad": 51,
+    "fecha_creacion": "2024-08-31T14:41:22"
+  },
+  {
+    "nombre": "Lasaña de verduras",
+    "descripcion": "Receta Lasaña de verduras saludable y sabrosa.",
+    "ingredientes": [
+      "242 g de miel",
+      "2 unidad(es) de espinacas",
+      "3 unidad(es) de pepino",
+      "261 g de aceite de oliva",
+      "2 unidad(es) de remolacha",
+      "222 g de plátano",
+      "282 g de limón",
+      "2 unidad(es) de almendras",
+      "44 g de leche vegetal"
+    ],
+    "instrucciones": "1. Servir por 10 minutos. 2. Picar todo. 3. Mezclar los ingredientes.",
+    "tiempo_preparacion": 60,
+    "porciones": 2,
+    "calorias": 463,
+    "categoria": [
+      "vegana"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Lasaña%20de%20verduras",
+    "proteinas": 29.1,
+    "grasas": 17.9,
+    "carbohidratos": 46.6,
+    "fibra": 7.3,
+    "azucares": 8.6,
+    "alergenos": [
+      "sésamo"
+    ],
+    "tags_saludables": [
+      "bajo en grasa"
+    ],
+    "popularidad": 97,
+    "fecha_creacion": "2024-04-05T05:51:39"
+  },
+  {
+    "nombre": "Crema de calabaza",
+    "descripcion": "Receta Crema de calabaza saludable y sabrosa.",
+    "ingredientes": [
+      "3 unidad(es) de pepino",
+      "82 g de almendras",
+      "1 unidad(es) de jengibre",
+      "2 unidad(es) de garbanzos"
+    ],
+    "instrucciones": "1. Hornear la mezcla. 2. Servir hasta que esté listo. 3. Saltear la mezcla.",
+    "tiempo_preparacion": 20,
+    "porciones": 2,
+    "calorias": 464,
+    "categoria": [
+      "baja en carbohidratos",
+      "vegetariana"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Crema%20de%20calabaza",
+    "proteinas": 35.0,
+    "grasas": 10.7,
+    "carbohidratos": 57.1,
+    "fibra": 3.4,
+    "azucares": 2.7,
+    "alergenos": [
+      "marisco"
+    ],
+    "tags_saludables": [
+      "paleo-friendly"
+    ],
+    "popularidad": 46,
+    "fecha_creacion": "2024-06-30T18:51:06"
+  },
+  {
+    "nombre": "Pasta pesto con guisantes",
+    "descripcion": "Receta Pasta pesto con guisantes saludable y sabrosa.",
+    "ingredientes": [
+      "1 unidad(es) de plátano",
+      "103 g de cebolla",
+      "3 unidad(es) de calabacín",
+      "2 unidad(es) de pepino",
+      "1 unidad(es) de tofu",
+      "2 unidad(es) de pasta integral",
+      "79 g de huevos"
+    ],
+    "instrucciones": "1. Mezclar la mezcla. 2. Picar la mezcla. 3. Batir la mezcla. 4. Saltear hasta que esté listo. 5. Cortar todo. 6. Mezclar todo.",
+    "tiempo_preparacion": 25,
+    "porciones": 3,
+    "calorias": 468,
+    "categoria": [
+      "vegana"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Pasta%20pesto%20con%20guisantes",
+    "proteinas": 10.3,
+    "grasas": 12.2,
+    "carbohidratos": 79.3,
+    "fibra": 6.4,
+    "azucares": 15.8,
+    "alergenos": [
+      "huevo"
+    ],
+    "tags_saludables": [
+      "sencillo",
+      "bajo en carbohidratos"
+    ],
+    "popularidad": 150,
+    "fecha_creacion": "2024-01-05T02:49:11"
+  },
+  {
+    "nombre": "Rollitos de primavera al horno",
+    "descripcion": "Receta Rollitos de primavera al horno saludable y sabrosa.",
+    "ingredientes": [
+      "292 g de ajos",
+      "2 unidad(es) de avena",
+      "120 g de huevos",
+      "14 g de cebolla",
+      "2 unidad(es) de pimienta",
+      "2 unidad(es) de quinoa",
+      "3 unidad(es) de lentejas"
+    ],
+    "instrucciones": "1. Saltear la mezcla. 2. Batir por 10 minutos. 3. Servir a fuego medio.",
+    "tiempo_preparacion": 25,
+    "porciones": 4,
+    "calorias": 393,
+    "categoria": [
+      "equilibrada",
+      "alta en proteínas"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Rollitos%20de%20primavera%20al%20horno",
+    "proteinas": 8.9,
+    "grasas": 15.1,
+    "carbohidratos": 55.4,
+    "fibra": 6.9,
+    "azucares": 8.9,
+    "alergenos": [],
+    "tags_saludables": [
+      "bajo en carbohidratos"
+    ],
+    "popularidad": 152,
+    "fecha_creacion": "2024-11-04T03:16:02"
+  },
+  {
+    "nombre": "Huevos revueltos con espinacas",
+    "descripcion": "Receta Huevos revueltos con espinacas saludable y sabrosa.",
+    "ingredientes": [
+      "125 g de arroz integral",
+      "2 unidad(es) de aguacate",
+      "190 g de limón",
+      "1 unidad(es) de pollo",
+      "113 g de harina integral",
+      "2 unidad(es) de quinoa",
+      "1 unidad(es) de lentejas",
+      "71 g de queso feta"
+    ],
+    "instrucciones": "1. Batir a fuego medio. 2. Mezclar hasta que esté listo. 3. Saltear la mezcla. 4. Servir hasta que esté listo.",
+    "tiempo_preparacion": 45,
+    "porciones": 3,
+    "calorias": 444,
+    "categoria": [
+      "alta en proteínas"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Huevos%20revueltos%20con%20espinacas",
+    "proteinas": 25.8,
+    "grasas": 7.7,
+    "carbohidratos": 68.1,
+    "fibra": 2.1,
+    "azucares": 17.9,
+    "alergenos": [
+      "sésamo"
+    ],
+    "tags_saludables": [
+      "sin gluten"
+    ],
+    "popularidad": 55,
+    "fecha_creacion": "2025-03-26T23:08:14"
+  },
+  {
+    "nombre": "Pizza casera integral",
+    "descripcion": "Receta Pizza casera integral saludable y sabrosa.",
+    "ingredientes": [
+      "1 unidad(es) de berenjena",
+      "2 unidad(es) de ajos",
+      "1 unidad(es) de pepino",
+      "129 g de lechuga"
+    ],
+    "instrucciones": "1. Cocer todo. 2. Cortar hasta que esté listo. 3. Saltear la mezcla. 4. Picar hasta que esté listo. 5. Cocer los ingredientes. 6. Saltear hasta que esté listo. 7. Servir todo.",
+    "tiempo_preparacion": 25,
+    "porciones": 1,
+    "calorias": 442,
+    "categoria": [
+      "baja en carbohidratos"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Pizza%20casera%20integral",
+    "proteinas": 16.7,
+    "grasas": 18.6,
+    "carbohidratos": 52.1,
+    "fibra": 2.2,
+    "azucares": 14.4,
+    "alergenos": [
+      "sésamo"
+    ],
+    "tags_saludables": [
+      "sencillo",
+      "bajo en grasa"
+    ],
+    "popularidad": 139,
+    "fecha_creacion": "2024-12-10T08:05:45"
+  },
+  {
+    "nombre": "Sopa de lentejas",
+    "descripcion": "Receta Sopa de lentejas saludable y sabrosa.",
+    "ingredientes": [
+      "1 unidad(es) de leche vegetal",
+      "101 g de tomate",
+      "2 unidad(es) de huevos",
+      "3 unidad(es) de pollo",
+      "1 unidad(es) de tofu",
+      "3 unidad(es) de queso feta"
+    ],
+    "instrucciones": "1. Cortar a fuego medio. 2. Picar hasta que esté listo. 3. Picar todo. 4. Saltear los ingredientes.",
+    "tiempo_preparacion": 15,
+    "porciones": 2,
+    "calorias": 470,
+    "categoria": [
+      "alta en proteínas",
+      "keto"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Sopa%20de%20lentejas",
+    "proteinas": 23.9,
+    "grasas": 20.4,
+    "carbohidratos": 47.8,
+    "fibra": 10.2,
+    "azucares": 11.4,
+    "alergenos": [],
+    "tags_saludables": [
+      "bajo en grasa",
+      "alto en proteínas"
+    ],
+    "popularidad": 13,
+    "fecha_creacion": "2025-03-25T05:15:57"
+  },
+  {
+    "nombre": "Burrito vegetariano",
+    "descripcion": "Receta Burrito vegetariano saludable y sabrosa.",
+    "ingredientes": [
+      "1 unidad(es) de quinoa",
+      "1 unidad(es) de tomate",
+      "66 g de pepino",
+      "151 g de patatas",
+      "2 unidad(es) de queso feta"
+    ],
+    "instrucciones": "1. Servir por 10 minutos. 2. Cocer a fuego medio. 3. Picar los ingredientes. 4. Cocer todo. 5. Servir hasta que esté listo. 6. Saltear por 10 minutos.",
+    "tiempo_preparacion": 10,
+    "porciones": 1,
+    "calorias": 253,
+    "categoria": [
+      "vegana"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Burrito%20vegetariano",
+    "proteinas": 13.8,
+    "grasas": 11.2,
+    "carbohidratos": 24.3,
+    "fibra": 9.3,
+    "azucares": 5.8,
+    "alergenos": [
+      "avena"
+    ],
+    "tags_saludables": [
+      "keto-friendly",
+      "alto en proteínas",
+      "bajo en grasa"
+    ],
+    "popularidad": 56,
+    "fecha_creacion": "2024-03-26T05:00:09"
+  },
+  {
+    "nombre": "Sopa miso con tofu",
+    "descripcion": "Receta Sopa miso con tofu saludable y sabrosa.",
+    "ingredientes": [
+      "40 g de mantequilla",
+      "2 unidad(es) de yogur",
+      "1 unidad(es) de pepino",
+      "2 unidad(es) de lentejas",
+      "117 g de jengibre",
+      "288 g de pimiento",
+      "1 unidad(es) de champiñones",
+      "1 unidad(es) de queso feta",
+      "257 g de leche vegetal"
+    ],
+    "instrucciones": "1. Cortar por 10 minutos. 2. Hornear hasta que esté listo. 3. Picar a fuego medio. 4. Saltear a fuego medio. 5. Servir los ingredientes. 6. Cocer por 10 minutos.",
+    "tiempo_preparacion": 25,
+    "porciones": 2,
+    "calorias": 425,
+    "categoria": [
+      "sin gluten"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Sopa%20miso%20con%20tofu",
+    "proteinas": 29.2,
+    "grasas": 8.0,
+    "carbohidratos": 59.2,
+    "fibra": 9.8,
+    "azucares": 18.7,
+    "alergenos": [
+      "avena"
+    ],
+    "tags_saludables": [
+      "rico en fibra"
+    ],
+    "popularidad": 5,
+    "fecha_creacion": "2024-04-15T13:38:46"
+  },
+  {
+    "nombre": "Tostadas de aguacate",
+    "descripcion": "Receta Tostadas de aguacate saludable y sabrosa.",
+    "ingredientes": [
+      "222 g de tofu",
+      "92 g de remolacha",
+      "122 g de lechuga",
+      "2 unidad(es) de mantequilla",
+      "49 g de aceite de oliva",
+      "3 unidad(es) de espinacas",
+      "3 unidad(es) de pollo",
+      "1 unidad(es) de lentejas"
+    ],
+    "instrucciones": "1. Saltear los ingredientes. 2. Cocer hasta que esté listo. 3. Cortar a fuego medio. 4. Batir los ingredientes. 5. Picar la mezcla. 6. Saltear todo.",
+    "tiempo_preparacion": 20,
+    "porciones": 3,
+    "calorias": 515,
+    "categoria": [
+      "alta en proteínas",
+      "paleo"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Tostadas%20de%20aguacate",
+    "proteinas": 35.6,
+    "grasas": 10.2,
+    "carbohidratos": 70.3,
+    "fibra": 7.9,
+    "azucares": 12.2,
+    "alergenos": [],
+    "tags_saludables": [
+      "bajo en azúcar",
+      "paleo-friendly",
+      "rico en fibra"
+    ],
+    "popularidad": 140,
+    "fecha_creacion": "2025-09-30T01:37:01"
+  },
+  {
+    "nombre": "Salteado de tofu y brócoli #42",
+    "descripcion": "Receta Salteado de tofu y brócoli #42 saludable y sabrosa.",
+    "ingredientes": [
+      "1 g de mantequilla",
+      "1 unidad(es) de jengibre",
+      "231 g de berenjena",
+      "18 g de quinoa"
+    ],
+    "instrucciones": "1. Cortar la mezcla. 2. Saltear hasta que esté listo. 3. Saltear la mezcla. 4. Picar los ingredientes. 5. Cocer todo. 6. Saltear hasta que esté listo.",
+    "tiempo_preparacion": 30,
+    "porciones": 3,
+    "calorias": 370,
+    "categoria": [
+      "baja en carbohidratos"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Salteado%20de%20tofu%20y%20brócoli%20#42",
+    "proteinas": 39.3,
+    "grasas": 15.3,
+    "carbohidratos": 18.9,
+    "fibra": 7.5,
+    "azucares": 2.8,
+    "alergenos": [],
+    "tags_saludables": [
+      "vegano",
+      "rico en fibra"
+    ],
+    "popularidad": 120,
+    "fecha_creacion": "2024-09-22T07:50:44"
+  },
+  {
+    "nombre": "Risotto de calabacín #43",
+    "descripcion": "Receta Risotto de calabacín #43 saludable y sabrosa.",
+    "ingredientes": [
+      "32 g de pimienta",
+      "4 g de tofu",
+      "2 unidad(es) de pollo",
+      "2 unidad(es) de almendras",
+      "31 g de espinacas",
+      "3 unidad(es) de jengibre",
+      "1 unidad(es) de pimiento"
+    ],
+    "instrucciones": "1. Cocer hasta que esté listo. 2. Hornear hasta que esté listo. 3. Cortar todo.",
+    "tiempo_preparacion": 25,
+    "porciones": 3,
+    "calorias": 524,
+    "categoria": [
+      "baja en carbohidratos",
+      "alta en proteínas"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Risotto%20de%20calabacín%20#43",
+    "proteinas": 31.7,
+    "grasas": 17.0,
+    "carbohidratos": 61.2,
+    "fibra": 10.3,
+    "azucares": 7.7,
+    "alergenos": [
+      "frutos secos"
+    ],
+    "tags_saludables": [
+      "rico en fibra",
+      "vegano"
+    ],
+    "popularidad": 153,
+    "fecha_creacion": "2024-03-05T13:09:26"
+  },
+  {
+    "nombre": "Batido de frutos rojos #44",
+    "descripcion": "Receta Batido de frutos rojos #44 saludable y sabrosa.",
+    "ingredientes": [
+      "71 g de pollo",
+      "2 unidad(es) de arroz integral",
+      "188 g de quinoa",
+      "30 g de miel",
+      "2 unidad(es) de champiñones",
+      "1 unidad(es) de sal",
+      "3 unidad(es) de leche vegetal",
+      "227 g de berenjena"
+    ],
+    "instrucciones": "1. Cortar la mezcla. 2. Picar por 10 minutos. 3. Mezclar hasta que esté listo. 4. Cocer la mezcla. 5. Hornear la mezcla. 6. Cortar hasta que esté listo.",
+    "tiempo_preparacion": 60,
+    "porciones": 1,
+    "calorias": 523,
+    "categoria": [
+      "sin gluten",
+      "baja en carbohidratos"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Batido%20de%20frutos%20rojos%20#44",
+    "proteinas": 37.1,
+    "grasas": 15.6,
+    "carbohidratos": 58.7,
+    "fibra": 4.2,
+    "azucares": 15.9,
+    "alergenos": [],
+    "tags_saludables": [
+      "keto-friendly"
+    ],
+    "popularidad": 106,
+    "fecha_creacion": "2024-07-12T15:05:54"
+  },
+  {
+    "nombre": "Guiso de ternera #45",
+    "descripcion": "Receta Guiso de ternera #45 saludable y sabrosa.",
+    "ingredientes": [
+      "244 g de miel",
+      "3 unidad(es) de patatas",
+      "258 g de champiñones",
+      "25 g de lechuga",
+      "134 g de arroz integral"
+    ],
+    "instrucciones": "1. Picar a fuego medio. 2. Saltear hasta que esté listo. 3. Batir todo. 4. Batir a fuego medio. 5. Saltear por 10 minutos. 6. Picar la mezcla. 7. Cortar hasta que esté listo.",
+    "tiempo_preparacion": 15,
+    "porciones": 1,
+    "calorias": 306,
+    "categoria": [
+      "vegetariana"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Guiso%20de%20ternera%20#45",
+    "proteinas": 30.4,
+    "grasas": 15.7,
+    "carbohidratos": 10.9,
+    "fibra": 5.7,
+    "azucares": 2.8,
+    "alergenos": [
+      "avena"
+    ],
+    "tags_saludables": [
+      "alto en proteínas"
+    ],
+    "popularidad": 158,
+    "fecha_creacion": "2025-06-27T10:44:16"
+  },
+  {
+    "nombre": "Rollitos de primavera al horno #46",
+    "descripcion": "Receta Rollitos de primavera al horno #46 saludable y sabrosa.",
+    "ingredientes": [
+      "1 unidad(es) de pasta integral",
+      "31 g de salmón",
+      "72 g de arroz integral",
+      "74 g de tofu",
+      "1 unidad(es) de ajos",
+      "64 g de pimienta",
+      "1 unidad(es) de miel"
+    ],
+    "instrucciones": "1. Cortar los ingredientes. 2. Batir la mezcla. 3. Saltear la mezcla. 4. Servir la mezcla. 5. Servir hasta que esté listo.",
+    "tiempo_preparacion": 15,
+    "porciones": 4,
+    "calorias": 370,
+    "categoria": [
+      "paleo"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Rollitos%20de%20primavera%20al%20horno%20#46",
+    "proteinas": 34.7,
+    "grasas": 16.6,
+    "carbohidratos": 20.5,
+    "fibra": 11.1,
+    "azucares": 15.6,
+    "alergenos": [
+      "avena"
+    ],
+    "tags_saludables": [
+      "sin gluten",
+      "alto en proteínas"
+    ],
+    "popularidad": 194,
+    "fecha_creacion": "2024-04-19T12:18:53"
+  },
+  {
+    "nombre": "Ensalada mediterránea #47",
+    "descripcion": "Receta Ensalada mediterránea #47 saludable y sabrosa.",
+    "ingredientes": [
+      "250 g de plátano",
+      "197 g de limón",
+      "2 unidad(es) de yogur",
+      "240 g de pollo",
+      "236 g de champiñones",
+      "223 g de tofu",
+      "2 unidad(es) de arroz integral"
+    ],
+    "instrucciones": "1. Cortar todo. 2. Cortar los ingredientes. 3. Hornear por 10 minutos.",
+    "tiempo_preparacion": 40,
+    "porciones": 2,
+    "calorias": 496,
+    "categoria": [
+      "paleo",
+      "sin gluten"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Ensalada%20mediterránea%20#47",
+    "proteinas": 36.9,
+    "grasas": 7.4,
+    "carbohidratos": 70.5,
+    "fibra": 2.6,
+    "azucares": 10.5,
+    "alergenos": [
+      "sésamo"
+    ],
+    "tags_saludables": [
+      "bajo en grasa",
+      "rico en fibra",
+      "sin gluten"
+    ],
+    "popularidad": 175,
+    "fecha_creacion": "2023-11-01T08:51:13"
+  },
+  {
+    "nombre": "Cazuela de verduras gratinadas #48",
+    "descripcion": "Receta Cazuela de verduras gratinadas #48 saludable y sabrosa.",
+    "ingredientes": [
+      "129 g de sal",
+      "88 g de tomate",
+      "157 g de plátano",
+      "3 unidad(es) de queso feta",
+      "170 g de pasta integral",
+      "164 g de remolacha",
+      "35 g de cebolla",
+      "2 unidad(es) de arroz integral",
+      "86 g de ajos"
+    ],
+    "instrucciones": "1. Cortar a fuego medio. 2. Cortar todo. 3. Servir por 10 minutos. 4. Mezclar por 10 minutos. 5. Saltear todo. 6. Saltear a fuego medio.",
+    "tiempo_preparacion": 20,
+    "porciones": 3,
+    "calorias": 269,
+    "categoria": [
+      "vegana",
+      "paleo"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Cazuela%20de%20verduras%20gratinadas%20#48",
+    "proteinas": 26.2,
+    "grasas": 11.3,
+    "carbohidratos": 15.8,
+    "fibra": 9.8,
+    "azucares": 12.4,
+    "alergenos": [
+      "frutos secos",
+      "lácteos"
+    ],
+    "tags_saludables": [
+      "bajo en carbohidratos",
+      "alto en proteínas"
+    ],
+    "popularidad": 83,
+    "fecha_creacion": "2025-08-14T20:11:55"
+  },
+  {
+    "nombre": "Lasaña de verduras #49",
+    "descripcion": "Receta Lasaña de verduras #49 saludable y sabrosa.",
+    "ingredientes": [
+      "68 g de lechuga",
+      "225 g de pasta integral",
+      "2 unidad(es) de aceite de oliva",
+      "137 g de pimienta",
+      "114 g de mantequilla",
+      "3 unidad(es) de pollo",
+      "1 unidad(es) de calabacín"
+    ],
+    "instrucciones": "1. Mezclar todo. 2. Mezclar a fuego medio. 3. Servir la mezcla. 4. Hornear a fuego medio. 5. Batir a fuego medio.",
+    "tiempo_preparacion": 15,
+    "porciones": 3,
+    "calorias": 370,
+    "categoria": [
+      "keto",
+      "vegetariana"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Lasaña%20de%20verduras%20#49",
+    "proteinas": 5.9,
+    "grasas": 19.1,
+    "carbohidratos": 43.8,
+    "fibra": 3.3,
+    "azucares": 12.7,
+    "alergenos": [
+      "marisco"
+    ],
+    "tags_saludables": [
+      "alto en proteínas",
+      "bajo en carbohidratos",
+      "keto-friendly"
+    ],
+    "popularidad": 63,
+    "fecha_creacion": "2023-11-19T15:12:12"
+  },
+  {
+    "nombre": "Crema de calabaza #50",
+    "descripcion": "Receta Crema de calabaza #50 saludable y sabrosa.",
+    "ingredientes": [
+      "3 unidad(es) de ajos",
+      "2 unidad(es) de lechuga",
+      "206 g de mantequilla",
+      "50 g de limón",
+      "126 g de lentejas",
+      "2 unidad(es) de plátano",
+      "248 g de salmón",
+      "273 g de pimienta"
+    ],
+    "instrucciones": "1. Picar todo. 2. Cocer la mezcla. 3. Servir por 10 minutos.",
+    "tiempo_preparacion": 30,
+    "porciones": 1,
+    "calorias": 486,
+    "categoria": [
+      "baja en carbohidratos"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Crema%20de%20calabaza%20#50",
+    "proteinas": 22.8,
+    "grasas": 12.7,
+    "carbohidratos": 70.3,
+    "fibra": 8.5,
+    "azucares": 6.8,
+    "alergenos": [],
+    "tags_saludables": [
+      "bajo en azúcar"
+    ],
+    "popularidad": 172,
+    "fecha_creacion": "2024-04-30T21:39:23"
+  },
+  {
+    "nombre": "Ensalada de lentejas #51",
+    "descripcion": "Receta Ensalada de lentejas #51 saludable y sabrosa.",
+    "ingredientes": [
+      "3 unidad(es) de plátano",
+      "119 g de cebolla",
+      "1 unidad(es) de arroz integral",
+      "2 unidad(es) de remolacha",
+      "2 unidad(es) de queso feta",
+      "2 unidad(es) de leche vegetal",
+      "2 unidad(es) de berenjena"
+    ],
+    "instrucciones": "1. Cocer todo. 2. Hornear la mezcla. 3. Saltear a fuego medio. 4. Picar hasta que esté listo. 5. Saltear hasta que esté listo. 6. Cocer todo. 7. Servir la mezcla.",
+    "tiempo_preparacion": 60,
+    "porciones": 2,
+    "calorias": 357,
+    "categoria": [
+      "alta en proteínas"
+    ],
+    "dificultad": "difícil",
+    "imagen": "https://via.placeholder.com/400x300?text=Ensalada%20de%20lentejas%20#51",
+    "proteinas": 9.8,
+    "grasas": 22.8,
+    "carbohidratos": 28.3,
+    "fibra": 7.9,
+    "azucares": 9.3,
+    "alergenos": [
+      "gluten"
+    ],
+    "tags_saludables": [
+      "bajo en azúcar",
+      "paleo-friendly",
+      "bajo en grasa"
+    ],
+    "popularidad": 156,
+    "fecha_creacion": "2024-11-06T04:53:17"
+  },
+  {
+    "nombre": "Ensalada de lentejas #52",
+    "descripcion": "Receta Ensalada de lentejas #52 saludable y sabrosa.",
+    "ingredientes": [
+      "3 g de champiñones",
+      "2 unidad(es) de huevos",
+      "218 g de avena",
+      "193 g de garbanzos",
+      "3 unidad(es) de patatas",
+      "51 g de calabacín",
+      "1 unidad(es) de aguacate",
+      "195 g de lechuga",
+      "157 g de berenjena"
+    ],
+    "instrucciones": "1. Servir por 10 minutos. 2. Cortar a fuego medio. 3. Saltear por 10 minutos. 4. Cocer todo. 5. Picar todo. 6. Cortar a fuego medio.",
+    "tiempo_preparacion": 15,
+    "porciones": 3,
+    "calorias": 380,
+    "categoria": [
+      "equilibrada",
+      "keto"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Ensalada%20de%20lentejas%20#52",
+    "proteinas": 6.8,
+    "grasas": 23.8,
+    "carbohidratos": 34.7,
+    "fibra": 3.9,
+    "azucares": 5.3,
+    "alergenos": [
+      "lácteos"
+    ],
+    "tags_saludables": [
+      "alto en proteínas"
+    ],
+    "popularidad": 149,
+    "fecha_creacion": "2024-07-11T23:45:48"
+  },
+  {
+    "nombre": "Lasaña de verduras #53",
+    "descripcion": "Receta Lasaña de verduras #53 saludable y sabrosa.",
+    "ingredientes": [
+      "264 g de tofu",
+      "207 g de berenjena",
+      "135 g de patatas",
+      "144 g de aguacate",
+      "99 g de avena",
+      "33 g de aceite de oliva",
+      "2 unidad(es) de tomate",
+      "2 unidad(es) de leche vegetal"
+    ],
+    "instrucciones": "1. Cocer todo. 2. Hornear por 10 minutos. 3. Saltear los ingredientes. 4. Picar por 10 minutos. 5. Batir hasta que esté listo.",
+    "tiempo_preparacion": 45,
+    "porciones": 2,
+    "calorias": 322,
+    "categoria": [
+      "paleo",
+      "equilibrada"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Lasaña%20de%20verduras%20#53",
+    "proteinas": 6.2,
+    "grasas": 8.0,
+    "carbohidratos": 56.3,
+    "fibra": 7.1,
+    "azucares": 1.8,
+    "alergenos": [
+      "sésamo"
+    ],
+    "tags_saludables": [
+      "bajo en carbohidratos",
+      "paleo-friendly"
+    ],
+    "popularidad": 158,
+    "fecha_creacion": "2024-03-19T15:04:21"
+  },
+  {
+    "nombre": "Ensalada tibia de remolacha #54",
+    "descripcion": "Receta Ensalada tibia de remolacha #54 saludable y sabrosa.",
+    "ingredientes": [
+      "17 g de patatas",
+      "1 unidad(es) de garbanzos",
+      "2 unidad(es) de lentejas",
+      "223 g de tofu",
+      "87 g de aceite de oliva",
+      "97 g de pimiento"
+    ],
+    "instrucciones": "1. Cortar los ingredientes. 2. Cortar la mezcla. 3. Hornear todo. 4. Cocer todo. 5. Cocer a fuego medio.",
+    "tiempo_preparacion": 45,
+    "porciones": 2,
+    "calorias": 309,
+    "categoria": [
+      "baja en carbohidratos"
+    ],
+    "dificultad": "difícil",
+    "imagen": "https://via.placeholder.com/400x300?text=Ensalada%20tibia%20de%20remolacha%20#54",
+    "proteinas": 17.3,
+    "grasas": 20.2,
+    "carbohidratos": 14.6,
+    "fibra": 2.1,
+    "azucares": 17.5,
+    "alergenos": [],
+    "tags_saludables": [
+      "vegano"
+    ],
+    "popularidad": 8,
+    "fecha_creacion": "2025-01-12T18:16:08"
+  },
+  {
+    "nombre": "Pasta pesto con guisantes #55",
+    "descripcion": "Receta Pasta pesto con guisantes #55 saludable y sabrosa.",
+    "ingredientes": [
+      "1 unidad(es) de pepino",
+      "2 unidad(es) de aceite de oliva",
+      "3 unidad(es) de yogur",
+      "3 unidad(es) de salmón",
+      "2 unidad(es) de espinacas"
+    ],
+    "instrucciones": "1. Saltear todo. 2. Picar por 10 minutos. 3. Hornear todo.",
+    "tiempo_preparacion": 35,
+    "porciones": 3,
+    "calorias": 383,
+    "categoria": [
+      "equilibrada",
+      "alta en proteínas"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Pasta%20pesto%20con%20guisantes%20#55",
+    "proteinas": 6.5,
+    "grasas": 11.7,
+    "carbohidratos": 63.0,
+    "fibra": 5.7,
+    "azucares": 16.9,
+    "alergenos": [
+      "marisco"
+    ],
+    "tags_saludables": [
+      "paleo-friendly",
+      "bajo en azúcar",
+      "sencillo"
+    ],
+    "popularidad": 119,
+    "fecha_creacion": "2025-01-11T11:40:46"
+  },
+  {
+    "nombre": "Lasaña de verduras #56",
+    "descripcion": "Receta Lasaña de verduras #56 saludable y sabrosa.",
+    "ingredientes": [
+      "145 g de lechuga",
+      "206 g de arroz integral",
+      "5 g de pimiento",
+      "178 g de patatas",
+      "21 g de lentejas",
+      "3 unidad(es) de aguacate",
+      "2 unidad(es) de pepino",
+      "2 unidad(es) de pasta integral"
+    ],
+    "instrucciones": "1. Saltear hasta que esté listo. 2. Servir todo. 3. Batir los ingredientes. 4. Picar por 10 minutos.",
+    "tiempo_preparacion": 30,
+    "porciones": 4,
+    "calorias": 340,
+    "categoria": [
+      "vegetariana"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Lasaña%20de%20verduras%20#56",
+    "proteinas": 36.1,
+    "grasas": 5.6,
+    "carbohidratos": 36.5,
+    "fibra": 5.7,
+    "azucares": 7.1,
+    "alergenos": [
+      "marisco"
+    ],
+    "tags_saludables": [
+      "rico en fibra"
+    ],
+    "popularidad": 30,
+    "fecha_creacion": "2024-08-06T09:02:39"
+  },
+  {
+    "nombre": "Sándwich de pavo y manzana #57",
+    "descripcion": "Receta Sándwich de pavo y manzana #57 saludable y sabrosa.",
+    "ingredientes": [
+      "1 unidad(es) de lechuga",
+      "74 g de aceite de oliva",
+      "1 unidad(es) de cebolla",
+      "126 g de queso feta",
+      "187 g de plátano"
+    ],
+    "instrucciones": "1. Cortar la mezcla. 2. Mezclar a fuego medio. 3. Picar los ingredientes. 4. Hornear hasta que esté listo. 5. Picar la mezcla. 6. Mezclar todo.",
+    "tiempo_preparacion": 10,
+    "porciones": 3,
+    "calorias": 491,
+    "categoria": [
+      "vegetariana",
+      "sin gluten"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Sándwich%20de%20pavo%20y%20manzana%20#57",
+    "proteinas": 22.2,
+    "grasas": 23.0,
+    "carbohidratos": 48.8,
+    "fibra": 8.0,
+    "azucares": 12.2,
+    "alergenos": [
+      "avena"
+    ],
+    "tags_saludables": [
+      "paleo-friendly",
+      "sin gluten",
+      "bajo en azúcar"
+    ],
+    "popularidad": 136,
+    "fecha_creacion": "2025-04-17T22:58:40"
+  },
+  {
+    "nombre": "Minestrone #58",
+    "descripcion": "Receta Minestrone #58 saludable y sabrosa.",
+    "ingredientes": [
+      "241 g de lentejas",
+      "136 g de tofu",
+      "3 unidad(es) de patatas",
+      "3 unidad(es) de limón"
+    ],
+    "instrucciones": "1. Cortar los ingredientes. 2. Hornear los ingredientes. 3. Hornear hasta que esté listo. 4. Cocer los ingredientes. 5. Hornear hasta que esté listo. 6. Mezclar a fuego medio.",
+    "tiempo_preparacion": 30,
+    "porciones": 2,
+    "calorias": 443,
+    "categoria": [
+      "vegetariana",
+      "sin gluten"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Minestrone%20#58",
+    "proteinas": 25.2,
+    "grasas": 11.2,
+    "carbohidratos": 60.5,
+    "fibra": 8.6,
+    "azucares": 5.5,
+    "alergenos": [
+      "pescado",
+      "huevo"
+    ],
+    "tags_saludables": [
+      "vegano"
+    ],
+    "popularidad": 114,
+    "fecha_creacion": "2023-11-01T12:27:30"
+  },
+  {
+    "nombre": "Batido de frutos rojos #59",
+    "descripcion": "Receta Batido de frutos rojos #59 saludable y sabrosa.",
+    "ingredientes": [
+      "1 unidad(es) de pasta integral",
+      "75 g de leche vegetal",
+      "220 g de avena",
+      "2 unidad(es) de patatas"
+    ],
+    "instrucciones": "1. Batir todo. 2. Servir todo. 3. Cocer hasta que esté listo.",
+    "tiempo_preparacion": 15,
+    "porciones": 1,
+    "calorias": 394,
+    "categoria": [
+      "sin gluten"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Batido%20de%20frutos%20rojos%20#59",
+    "proteinas": 23.8,
+    "grasas": 3.3,
+    "carbohidratos": 67.4,
+    "fibra": 11.1,
+    "azucares": 17.7,
+    "alergenos": [
+      "pescado",
+      "soja"
+    ],
+    "tags_saludables": [
+      "sencillo",
+      "sin gluten",
+      "bajo en carbohidratos"
+    ],
+    "popularidad": 152,
+    "fecha_creacion": "2024-09-23T15:45:27"
+  },
+  {
+    "nombre": "Bol de desayuno con yogur y granola #60",
+    "descripcion": "Receta Bol de desayuno con yogur y granola #60 saludable y sabrosa.",
+    "ingredientes": [
+      "183 g de calabacín",
+      "177 g de yogur",
+      "232 g de quinoa",
+      "2 unidad(es) de tomate",
+      "160 g de leche vegetal",
+      "143 g de pimienta",
+      "3 unidad(es) de pollo"
+    ],
+    "instrucciones": "1. Saltear hasta que esté listo. 2. Hornear a fuego medio. 3. Servir los ingredientes. 4. Mezclar por 10 minutos. 5. Cocer todo. 6. Picar por 10 minutos. 7. Cocer los ingredientes.",
+    "tiempo_preparacion": 40,
+    "porciones": 3,
+    "calorias": 337,
+    "categoria": [
+      "vegetariana",
+      "equilibrada"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Bol%20de%20desayuno%20con%20yogur%20y%20granola%20#60",
+    "proteinas": 30.9,
+    "grasas": 19.1,
+    "carbohidratos": 10.5,
+    "fibra": 11.0,
+    "azucares": 9.1,
+    "alergenos": [],
+    "tags_saludables": [
+      "bajo en grasa",
+      "rico en fibra",
+      "paleo-friendly"
+    ],
+    "popularidad": 127,
+    "fecha_creacion": "2025-06-14T07:37:06"
+  },
+  {
+    "nombre": "Ensalada de garbanzos y atún #61",
+    "descripcion": "Receta Ensalada de garbanzos y atún #61 saludable y sabrosa.",
+    "ingredientes": [
+      "106 g de aceite de oliva",
+      "2 unidad(es) de ajos",
+      "1 unidad(es) de tofu",
+      "2 unidad(es) de queso feta",
+      "195 g de avena",
+      "48 g de huevos",
+      "3 unidad(es) de calabacín",
+      "167 g de pepino",
+      "52 g de limón"
+    ],
+    "instrucciones": "1. Saltear hasta que esté listo. 2. Saltear por 10 minutos. 3. Cocer a fuego medio. 4. Hornear hasta que esté listo.",
+    "tiempo_preparacion": 60,
+    "porciones": 3,
+    "calorias": 495,
+    "categoria": [
+      "baja en carbohidratos",
+      "vegetariana"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Ensalada%20de%20garbanzos%20y%20atún%20#61",
+    "proteinas": 21.2,
+    "grasas": 18.5,
+    "carbohidratos": 61.0,
+    "fibra": 5.4,
+    "azucares": 4.3,
+    "alergenos": [
+      "frutos secos",
+      "sésamo"
+    ],
+    "tags_saludables": [
+      "sin gluten",
+      "keto-friendly"
+    ],
+    "popularidad": 94,
+    "fecha_creacion": "2025-05-21T08:46:33"
+  },
+  {
+    "nombre": "Salteado de tofu y brócoli #62",
+    "descripcion": "Receta Salteado de tofu y brócoli #62 saludable y sabrosa.",
+    "ingredientes": [
+      "69 g de salmón",
+      "1 unidad(es) de lechuga",
+      "2 unidad(es) de garbanzos",
+      "3 unidad(es) de lentejas",
+      "262 g de pimiento",
+      "1 unidad(es) de calabacín",
+      "290 g de avena",
+      "153 g de pimienta"
+    ],
+    "instrucciones": "1. Picar a fuego medio. 2. Cocer por 10 minutos. 3. Picar la mezcla. 4. Servir a fuego medio. 5. Hornear hasta que esté listo.",
+    "tiempo_preparacion": 15,
+    "porciones": 1,
+    "calorias": 563,
+    "categoria": [
+      "paleo",
+      "baja en carbohidratos"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Salteado%20de%20tofu%20y%20brócoli%20#62",
+    "proteinas": 39.8,
+    "grasas": 10.9,
+    "carbohidratos": 76.6,
+    "fibra": 3.4,
+    "azucares": 2.2,
+    "alergenos": [],
+    "tags_saludables": [
+      "keto-friendly",
+      "sin gluten",
+      "paleo-friendly"
+    ],
+    "popularidad": 22,
+    "fecha_creacion": "2025-04-19T04:18:24"
+  },
+  {
+    "nombre": "Polenta con champiñones #63",
+    "descripcion": "Receta Polenta con champiñones #63 saludable y sabrosa.",
+    "ingredientes": [
+      "3 unidad(es) de patatas",
+      "41 g de jengibre",
+      "269 g de quinoa",
+      "240 g de almendras",
+      "7 g de tofu",
+      "169 g de lechuga",
+      "2 unidad(es) de cebolla"
+    ],
+    "instrucciones": "1. Servir los ingredientes. 2. Picar los ingredientes. 3. Saltear los ingredientes. 4. Mezclar a fuego medio. 5. Hornear la mezcla.",
+    "tiempo_preparacion": 45,
+    "porciones": 4,
+    "calorias": 427,
+    "categoria": [
+      "vegetariana",
+      "vegana"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Polenta%20con%20champiñones%20#63",
+    "proteinas": 25.4,
+    "grasas": 7.9,
+    "carbohidratos": 63.7,
+    "fibra": 5.8,
+    "azucares": 6.5,
+    "alergenos": [
+      "avena",
+      "frutos secos"
+    ],
+    "tags_saludables": [
+      "bajo en grasa"
+    ],
+    "popularidad": 133,
+    "fecha_creacion": "2025-04-04T21:29:14"
+  },
+  {
+    "nombre": "Burrito vegetariano #64",
+    "descripcion": "Receta Burrito vegetariano #64 saludable y sabrosa.",
+    "ingredientes": [
+      "153 g de tomate",
+      "1 unidad(es) de arroz integral",
+      "2 unidad(es) de pollo",
+      "2 unidad(es) de jengibre",
+      "174 g de aguacate",
+      "28 g de espinacas",
+      "148 g de salmón",
+      "3 unidad(es) de pasta integral",
+      "153 g de miel"
+    ],
+    "instrucciones": "1. Mezclar por 10 minutos. 2. Hornear hasta que esté listo. 3. Cocer hasta que esté listo. 4. Servir los ingredientes. 5. Mezclar la mezcla. 6. Hornear a fuego medio. 7. Saltear por 10 minutos.",
+    "tiempo_preparacion": 35,
+    "porciones": 2,
+    "calorias": 490,
+    "categoria": [
+      "paleo"
+    ],
+    "dificultad": "difícil",
+    "imagen": "https://via.placeholder.com/400x300?text=Burrito%20vegetariano%20#64",
+    "proteinas": 37.7,
+    "grasas": 6.5,
+    "carbohidratos": 70.3,
+    "fibra": 1.9,
+    "azucares": 5.5,
+    "alergenos": [
+      "sésamo"
+    ],
+    "tags_saludables": [
+      "paleo-friendly",
+      "keto-friendly",
+      "sin gluten"
+    ],
+    "popularidad": 103,
+    "fecha_creacion": "2023-12-05T20:24:25"
+  },
+  {
+    "nombre": "Huevos revueltos con espinacas #65",
+    "descripcion": "Receta Huevos revueltos con espinacas #65 saludable y sabrosa.",
+    "ingredientes": [
+      "68 g de pollo",
+      "3 unidad(es) de arroz integral",
+      "1 unidad(es) de huevos",
+      "3 unidad(es) de espinacas",
+      "239 g de lentejas",
+      "1 unidad(es) de miel",
+      "2 g de garbanzos",
+      "175 g de avena"
+    ],
+    "instrucciones": "1. Saltear la mezcla. 2. Picar a fuego medio. 3. Saltear todo. 4. Batir los ingredientes. 5. Cortar la mezcla. 6. Servir a fuego medio.",
+    "tiempo_preparacion": 45,
+    "porciones": 1,
+    "calorias": 312,
+    "categoria": [
+      "alta en proteínas",
+      "sin gluten"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Huevos%20revueltos%20con%20espinacas%20#65",
+    "proteinas": 18.8,
+    "grasas": 15.5,
+    "carbohidratos": 24.4,
+    "fibra": 8.0,
+    "azucares": 1.0,
+    "alergenos": [
+      "lácteos"
+    ],
+    "tags_saludables": [
+      "vegano",
+      "rico en fibra"
+    ],
+    "popularidad": 34,
+    "fecha_creacion": "2024-07-09T17:30:19"
+  },
+  {
+    "nombre": "Huevos revueltos con espinacas #66",
+    "descripcion": "Receta Huevos revueltos con espinacas #66 saludable y sabrosa.",
+    "ingredientes": [
+      "3 unidad(es) de cebolla",
+      "2 unidad(es) de aguacate",
+      "259 g de lechuga",
+      "64 g de leche vegetal"
+    ],
+    "instrucciones": "1. Cocer todo. 2. Servir todo. 3. Batir los ingredientes. 4. Batir por 10 minutos. 5. Hornear hasta que esté listo. 6. Saltear por 10 minutos.",
+    "tiempo_preparacion": 20,
+    "porciones": 2,
+    "calorias": 379,
+    "categoria": [
+      "alta en proteínas"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Huevos%20revueltos%20con%20espinacas%20#66",
+    "proteinas": 19.7,
+    "grasas": 14.5,
+    "carbohidratos": 42.5,
+    "fibra": 8.2,
+    "azucares": 12.9,
+    "alergenos": [
+      "frutos secos"
+    ],
+    "tags_saludables": [
+      "vegano",
+      "rico en fibra"
+    ],
+    "popularidad": 9,
+    "fecha_creacion": "2025-02-06T00:55:47"
+  },
+  {
+    "nombre": "Filete empanado al horno #67",
+    "descripcion": "Receta Filete empanado al horno #67 saludable y sabrosa.",
+    "ingredientes": [
+      "2 unidad(es) de harina integral",
+      "3 unidad(es) de plátano",
+      "277 g de tomate",
+      "31 g de ajos",
+      "3 unidad(es) de pimienta"
+    ],
+    "instrucciones": "1. Batir todo. 2. Batir por 10 minutos. 3. Cortar los ingredientes. 4. Servir la mezcla. 5. Cortar a fuego medio. 6. Picar por 10 minutos.",
+    "tiempo_preparacion": 20,
+    "porciones": 4,
+    "calorias": 278,
+    "categoria": [
+      "equilibrada"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Filete%20empanado%20al%20horno%20#67",
+    "proteinas": 17.3,
+    "grasas": 4.5,
+    "carbohidratos": 42.2,
+    "fibra": 5.7,
+    "azucares": 7.7,
+    "alergenos": [
+      "marisco"
+    ],
+    "tags_saludables": [
+      "bajo en carbohidratos",
+      "sin gluten",
+      "paleo-friendly"
+    ],
+    "popularidad": 64,
+    "fecha_creacion": "2024-07-10T19:59:57"
+  },
+  {
+    "nombre": "Ensalada tibia de remolacha #68",
+    "descripcion": "Receta Ensalada tibia de remolacha #68 saludable y sabrosa.",
+    "ingredientes": [
+      "1 unidad(es) de yogur",
+      "1 unidad(es) de pasta integral",
+      "147 g de limón",
+      "45 g de salmón",
+      "2 unidad(es) de pimiento"
+    ],
+    "instrucciones": "1. Hornear la mezcla. 2. Servir todo. 3. Mezclar los ingredientes.",
+    "tiempo_preparacion": 30,
+    "porciones": 1,
+    "calorias": 396,
+    "categoria": [
+      "vegana"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Ensalada%20tibia%20de%20remolacha%20#68",
+    "proteinas": 26.8,
+    "grasas": 5.7,
+    "carbohidratos": 59.6,
+    "fibra": 5.9,
+    "azucares": 15.9,
+    "alergenos": [],
+    "tags_saludables": [
+      "bajo en grasa"
+    ],
+    "popularidad": 158,
+    "fecha_creacion": "2025-08-04T18:30:48"
+  },
+  {
+    "nombre": "Frittata de espinacas #69",
+    "descripcion": "Receta Frittata de espinacas #69 saludable y sabrosa.",
+    "ingredientes": [
+      "3 unidad(es) de jengibre",
+      "1 unidad(es) de salmón",
+      "135 g de quinoa",
+      "236 g de avena",
+      "25 g de cebolla"
+    ],
+    "instrucciones": "1. Saltear todo. 2. Saltear la mezcla. 3. Hornear a fuego medio. 4. Servir la mezcla. 5. Saltear por 10 minutos.",
+    "tiempo_preparacion": 30,
+    "porciones": 2,
+    "calorias": 353,
+    "categoria": [
+      "vegetariana"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Frittata%20de%20espinacas%20#69",
+    "proteinas": 15.7,
+    "grasas": 13.8,
+    "carbohidratos": 41.7,
+    "fibra": 2.7,
+    "azucares": 1.5,
+    "alergenos": [],
+    "tags_saludables": [
+      "bajo en carbohidratos",
+      "sin gluten"
+    ],
+    "popularidad": 163,
+    "fecha_creacion": "2023-11-02T05:57:40"
+  },
+  {
+    "nombre": "Rollitos de primavera al horno #70",
+    "descripcion": "Receta Rollitos de primavera al horno #70 saludable y sabrosa.",
+    "ingredientes": [
+      "295 g de pasta integral",
+      "1 unidad(es) de remolacha",
+      "3 unidad(es) de garbanzos",
+      "3 unidad(es) de tomate"
+    ],
+    "instrucciones": "1. Batir a fuego medio. 2. Batir por 10 minutos. 3. Cortar los ingredientes. 4. Mezclar los ingredientes. 5. Cocer a fuego medio. 6. Cocer por 10 minutos. 7. Mezclar hasta que esté listo.",
+    "tiempo_preparacion": 35,
+    "porciones": 4,
+    "calorias": 309,
+    "categoria": [
+      "paleo"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Rollitos%20de%20primavera%20al%20horno%20#70",
+    "proteinas": 31.1,
+    "grasas": 12.1,
+    "carbohidratos": 19.1,
+    "fibra": 1.4,
+    "azucares": 13.5,
+    "alergenos": [
+      "sésamo"
+    ],
+    "tags_saludables": [
+      "vegano"
+    ],
+    "popularidad": 48,
+    "fecha_creacion": "2024-09-25T05:20:28"
+  },
+  {
+    "nombre": "Sopa miso con tofu #71",
+    "descripcion": "Receta Sopa miso con tofu #71 saludable y sabrosa.",
+    "ingredientes": [
+      "28 g de jengibre",
+      "163 g de pasta integral",
+      "92 g de lentejas",
+      "3 unidad(es) de mantequilla",
+      "253 g de sal",
+      "247 g de almendras",
+      "2 unidad(es) de plátano",
+      "193 g de huevos",
+      "2 unidad(es) de lechuga"
+    ],
+    "instrucciones": "1. Saltear a fuego medio. 2. Saltear hasta que esté listo. 3. Mezclar todo. 4. Servir todo. 5. Cortar por 10 minutos. 6. Picar a fuego medio. 7. Batir la mezcla.",
+    "tiempo_preparacion": 30,
+    "porciones": 1,
+    "calorias": 345,
+    "categoria": [
+      "equilibrada",
+      "sin gluten"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Sopa%20miso%20con%20tofu%20#71",
+    "proteinas": 20.3,
+    "grasas": 15.4,
+    "carbohidratos": 31.5,
+    "fibra": 1.1,
+    "azucares": 0.8,
+    "alergenos": [],
+    "tags_saludables": [
+      "sencillo"
+    ],
+    "popularidad": 147,
+    "fecha_creacion": "2023-11-10T06:50:58"
+  },
+  {
+    "nombre": "Tabulé #72",
+    "descripcion": "Receta Tabulé #72 saludable y sabrosa.",
+    "ingredientes": [
+      "3 unidad(es) de sal",
+      "2 unidad(es) de ajos",
+      "279 g de pasta integral",
+      "57 g de aguacate",
+      "3 unidad(es) de jengibre",
+      "292 g de yogur",
+      "2 unidad(es) de miel",
+      "166 g de avena"
+    ],
+    "instrucciones": "1. Cortar hasta que esté listo. 2. Hornear a fuego medio. 3. Mezclar la mezcla. 4. Cortar por 10 minutos. 5. Batir por 10 minutos. 6. Batir por 10 minutos.",
+    "tiempo_preparacion": 30,
+    "porciones": 3,
+    "calorias": 428,
+    "categoria": [
+      "baja en carbohidratos"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Tabulé%20#72",
+    "proteinas": 18.9,
+    "grasas": 16.5,
+    "carbohidratos": 51.0,
+    "fibra": 3.9,
+    "azucares": 8.8,
+    "alergenos": [],
+    "tags_saludables": [
+      "sencillo",
+      "alto en proteínas",
+      "bajo en grasa"
+    ],
+    "popularidad": 194,
+    "fecha_creacion": "2025-07-26T20:21:11"
+  },
+  {
+    "nombre": "Risotto de calabacín #73",
+    "descripcion": "Receta Risotto de calabacín #73 saludable y sabrosa.",
+    "ingredientes": [
+      "201 g de ajos",
+      "273 g de sal",
+      "3 unidad(es) de champiñones",
+      "3 unidad(es) de quinoa",
+      "1 g de calabacín",
+      "35 g de huevos",
+      "2 unidad(es) de espinacas",
+      "105 g de salmón",
+      "57 g de lechuga"
+    ],
+    "instrucciones": "1. Hornear todo. 2. Saltear por 10 minutos. 3. Mezclar los ingredientes.",
+    "tiempo_preparacion": 45,
+    "porciones": 4,
+    "calorias": 348,
+    "categoria": [
+      "baja en carbohidratos",
+      "vegana"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Risotto%20de%20calabacín%20#73",
+    "proteinas": 21.1,
+    "grasas": 23.4,
+    "carbohidratos": 13.4,
+    "fibra": 5.1,
+    "azucares": 13.6,
+    "alergenos": [],
+    "tags_saludables": [
+      "sin gluten",
+      "rico en fibra"
+    ],
+    "popularidad": 106,
+    "fecha_creacion": "2025-04-08T01:28:45"
+  },
+  {
+    "nombre": "Salmón marinado en soja #74",
+    "descripcion": "Receta Salmón marinado en soja #74 saludable y sabrosa.",
+    "ingredientes": [
+      "215 g de salmón",
+      "151 g de arroz integral",
+      "176 g de pollo",
+      "201 g de lentejas",
+      "64 g de queso feta",
+      "2 unidad(es) de pimiento",
+      "1 unidad(es) de lechuga",
+      "1 unidad(es) de sal",
+      "1 unidad(es) de cebolla"
+    ],
+    "instrucciones": "1. Mezclar a fuego medio. 2. Cocer hasta que esté listo. 3. Cocer hasta que esté listo. 4. Mezclar todo. 5. Cortar todo. 6. Saltear los ingredientes. 7. Cocer por 10 minutos.",
+    "tiempo_preparacion": 60,
+    "porciones": 2,
+    "calorias": 427,
+    "categoria": [
+      "baja en carbohidratos",
+      "equilibrada"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Salmón%20marinado%20en%20soja%20#74",
+    "proteinas": 24.9,
+    "grasas": 9.4,
+    "carbohidratos": 60.9,
+    "fibra": 8.2,
+    "azucares": 20.8,
+    "alergenos": [
+      "avena"
+    ],
+    "tags_saludables": [
+      "bajo en grasa"
+    ],
+    "popularidad": 95,
+    "fecha_creacion": "2023-11-25T11:17:17"
+  },
+  {
+    "nombre": "Sándwich de pavo y manzana #75",
+    "descripcion": "Receta Sándwich de pavo y manzana #75 saludable y sabrosa.",
+    "ingredientes": [
+      "230 g de almendras",
+      "155 g de jengibre",
+      "3 unidad(es) de pimiento",
+      "3 unidad(es) de pimienta",
+      "1 unidad(es) de yogur",
+      "3 unidad(es) de pollo"
+    ],
+    "instrucciones": "1. Batir por 10 minutos. 2. Picar la mezcla. 3. Batir a fuego medio.",
+    "tiempo_preparacion": 10,
+    "porciones": 4,
+    "calorias": 451,
+    "categoria": [
+      "alta en proteínas",
+      "vegetariana"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Sándwich%20de%20pavo%20y%20manzana%20#75",
+    "proteinas": 17.9,
+    "grasas": 11.9,
+    "carbohidratos": 68.1,
+    "fibra": 7.5,
+    "azucares": 12.4,
+    "alergenos": [
+      "sésamo"
+    ],
+    "tags_saludables": [
+      "bajo en grasa"
+    ],
+    "popularidad": 128,
+    "fecha_creacion": "2024-01-19T07:27:04"
+  },
+  {
+    "nombre": "Ensalada de lentejas #76",
+    "descripcion": "Receta Ensalada de lentejas #76 saludable y sabrosa.",
+    "ingredientes": [
+      "2 unidad(es) de aceite de oliva",
+      "1 unidad(es) de garbanzos",
+      "241 g de leche vegetal",
+      "157 g de pollo",
+      "288 g de mantequilla",
+      "1 unidad(es) de huevos",
+      "136 g de plátano"
+    ],
+    "instrucciones": "1. Picar por 10 minutos. 2. Batir a fuego medio. 3. Picar la mezcla. 4. Hornear todo. 5. Picar todo. 6. Hornear la mezcla. 7. Batir los ingredientes.",
+    "tiempo_preparacion": 30,
+    "porciones": 2,
+    "calorias": 464,
+    "categoria": [
+      "alta en proteínas"
+    ],
+    "dificultad": "difícil",
+    "imagen": "https://via.placeholder.com/400x300?text=Ensalada%20de%20lentejas%20#76",
+    "proteinas": 20.3,
+    "grasas": 17.7,
+    "carbohidratos": 56.0,
+    "fibra": 9.2,
+    "azucares": 18.5,
+    "alergenos": [
+      "marisco"
+    ],
+    "tags_saludables": [
+      "vegano",
+      "sin gluten"
+    ],
+    "popularidad": 41,
+    "fecha_creacion": "2024-07-25T11:57:57"
+  },
+  {
+    "nombre": "Sándwich de pavo y manzana #77",
+    "descripcion": "Receta Sándwich de pavo y manzana #77 saludable y sabrosa.",
+    "ingredientes": [
+      "1 unidad(es) de plátano",
+      "1 unidad(es) de aguacate",
+      "148 g de almendras",
+      "144 g de remolacha",
+      "101 g de patatas",
+      "62 g de huevos",
+      "1 unidad(es) de pollo",
+      "93 g de garbanzos",
+      "230 g de pasta integral"
+    ],
+    "instrucciones": "1. Picar todo. 2. Hornear a fuego medio. 3. Picar a fuego medio. 4. Batir a fuego medio. 5. Cocer la mezcla.",
+    "tiempo_preparacion": 20,
+    "porciones": 2,
+    "calorias": 379,
+    "categoria": [
+      "vegetariana"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Sándwich%20de%20pavo%20y%20manzana%20#77",
+    "proteinas": 7.0,
+    "grasas": 15.2,
+    "carbohidratos": 53.7,
+    "fibra": 2.0,
+    "azucares": 10.5,
+    "alergenos": [
+      "soja",
+      "avena"
+    ],
+    "tags_saludables": [
+      "bajo en azúcar"
+    ],
+    "popularidad": 94,
+    "fecha_creacion": "2024-10-24T20:08:32"
+  },
+  {
+    "nombre": "Risotto de calabacín #78",
+    "descripcion": "Receta Risotto de calabacín #78 saludable y sabrosa.",
+    "ingredientes": [
+      "1 unidad(es) de mantequilla",
+      "3 unidad(es) de harina integral",
+      "3 unidad(es) de queso feta",
+      "20 g de limón",
+      "170 g de espinacas",
+      "43 g de arroz integral",
+      "246 g de lechuga",
+      "210 g de garbanzos",
+      "1 unidad(es) de cebolla"
+    ],
+    "instrucciones": "1. Cocer hasta que esté listo. 2. Hornear la mezcla. 3. Cocer los ingredientes.",
+    "tiempo_preparacion": 30,
+    "porciones": 1,
+    "calorias": 378,
+    "categoria": [
+      "keto"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Risotto%20de%20calabacín%20#78",
+    "proteinas": 24.4,
+    "grasas": 7.7,
+    "carbohidratos": 53.0,
+    "fibra": 3.0,
+    "azucares": 15.0,
+    "alergenos": [
+      "avena"
+    ],
+    "tags_saludables": [
+      "vegano",
+      "rico en fibra"
+    ],
+    "popularidad": 15,
+    "fecha_creacion": "2025-07-14T07:31:44"
+  },
+  {
+    "nombre": "Crema de champiñones #79",
+    "descripcion": "Receta Crema de champiñones #79 saludable y sabrosa.",
+    "ingredientes": [
+      "1 unidad(es) de berenjena",
+      "196 g de pimienta",
+      "156 g de lentejas",
+      "3 unidad(es) de sal",
+      "58 g de garbanzos",
+      "102 g de pasta integral",
+      "2 unidad(es) de lechuga",
+      "2 unidad(es) de champiñones",
+      "40 g de arroz integral"
+    ],
+    "instrucciones": "1. Hornear por 10 minutos. 2. Saltear la mezcla. 3. Cortar por 10 minutos. 4. Hornear a fuego medio. 5. Mezclar la mezcla. 6. Saltear los ingredientes.",
+    "tiempo_preparacion": 20,
+    "porciones": 4,
+    "calorias": 388,
+    "categoria": [
+      "vegana",
+      "keto"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Crema%20de%20champiñones%20#79",
+    "proteinas": 23.4,
+    "grasas": 19.3,
+    "carbohidratos": 30.4,
+    "fibra": 4.7,
+    "azucares": 22.2,
+    "alergenos": [],
+    "tags_saludables": [
+      "alto en proteínas",
+      "rico en fibra"
+    ],
+    "popularidad": 172,
+    "fecha_creacion": "2025-08-20T14:26:49"
+  },
+  {
+    "nombre": "Sopa miso con tofu #80",
+    "descripcion": "Receta Sopa miso con tofu #80 saludable y sabrosa.",
+    "ingredientes": [
+      "209 g de sal",
+      "208 g de pollo",
+      "233 g de lechuga",
+      "1 unidad(es) de mantequilla",
+      "3 unidad(es) de garbanzos"
+    ],
+    "instrucciones": "1. Batir hasta que esté listo. 2. Picar por 10 minutos. 3. Hornear la mezcla. 4. Mezclar a fuego medio. 5. Saltear la mezcla.",
+    "tiempo_preparacion": 60,
+    "porciones": 2,
+    "calorias": 445,
+    "categoria": [
+      "equilibrada",
+      "alta en proteínas"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Sopa%20miso%20con%20tofu%20#80",
+    "proteinas": 12.6,
+    "grasas": 15.7,
+    "carbohidratos": 63.4,
+    "fibra": 3.9,
+    "azucares": 19.2,
+    "alergenos": [],
+    "tags_saludables": [
+      "bajo en azúcar",
+      "paleo-friendly",
+      "sencillo"
+    ],
+    "popularidad": 112,
+    "fecha_creacion": "2025-09-09T19:40:19"
+  },
+  {
+    "nombre": "Curry de garbanzos #81",
+    "descripcion": "Receta Curry de garbanzos #81 saludable y sabrosa.",
+    "ingredientes": [
+      "140 g de sal",
+      "44 g de pepino",
+      "156 g de champiñones",
+      "3 unidad(es) de pimiento"
+    ],
+    "instrucciones": "1. Batir los ingredientes. 2. Batir hasta que esté listo. 3. Saltear los ingredientes. 4. Batir todo. 5. Servir a fuego medio.",
+    "tiempo_preparacion": 40,
+    "porciones": 1,
+    "calorias": 433,
+    "categoria": [
+      "keto"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Curry%20de%20garbanzos%20#81",
+    "proteinas": 27.6,
+    "grasas": 3.3,
+    "carbohidratos": 73.3,
+    "fibra": 5.8,
+    "azucares": 19.8,
+    "alergenos": [
+      "sésamo"
+    ],
+    "tags_saludables": [
+      "sencillo"
+    ],
+    "popularidad": 73,
+    "fecha_creacion": "2023-11-29T05:45:14"
+  },
+  {
+    "nombre": "Pisto manchego #82",
+    "descripcion": "Receta Pisto manchego #82 saludable y sabrosa.",
+    "ingredientes": [
+      "79 g de aceite de oliva",
+      "260 g de remolacha",
+      "2 unidad(es) de calabacín",
+      "1 unidad(es) de berenjena",
+      "282 g de cebolla",
+      "3 unidad(es) de ajos",
+      "3 unidad(es) de tomate"
+    ],
+    "instrucciones": "1. Saltear por 10 minutos. 2. Batir por 10 minutos. 3. Servir la mezcla. 4. Servir los ingredientes. 5. Servir hasta que esté listo.",
+    "tiempo_preparacion": 45,
+    "porciones": 4,
+    "calorias": 291,
+    "categoria": [
+      "baja en carbohidratos"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Pisto%20manchego%20#82",
+    "proteinas": 29.3,
+    "grasas": 13.1,
+    "carbohidratos": 14.1,
+    "fibra": 10.9,
+    "azucares": 4.4,
+    "alergenos": [
+      "pescado"
+    ],
+    "tags_saludables": [
+      "sencillo"
+    ],
+    "popularidad": 11,
+    "fecha_creacion": "2024-06-09T16:29:02"
+  },
+  {
+    "nombre": "Pasta pesto con guisantes #83",
+    "descripcion": "Receta Pasta pesto con guisantes #83 saludable y sabrosa.",
+    "ingredientes": [
+      "3 unidad(es) de pimiento",
+      "186 g de remolacha",
+      "3 unidad(es) de ajos",
+      "151 g de cebolla",
+      "61 g de lechuga"
+    ],
+    "instrucciones": "1. Servir los ingredientes. 2. Saltear a fuego medio. 3. Cocer por 10 minutos. 4. Batir a fuego medio. 5. Mezclar por 10 minutos. 6. Mezclar los ingredientes. 7. Saltear por 10 minutos.",
+    "tiempo_preparacion": 25,
+    "porciones": 1,
+    "calorias": 418,
+    "categoria": [
+      "keto",
+      "paleo"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Pasta%20pesto%20con%20guisantes%20#83",
+    "proteinas": 36.6,
+    "grasas": 17.2,
+    "carbohidratos": 29.2,
+    "fibra": 5.8,
+    "azucares": 4.5,
+    "alergenos": [
+      "pescado"
+    ],
+    "tags_saludables": [
+      "rico en fibra",
+      "alto en proteínas",
+      "vegano"
+    ],
+    "popularidad": 44,
+    "fecha_creacion": "2024-02-01T08:19:28"
+  },
+  {
+    "nombre": "Risotto de calabacín #84",
+    "descripcion": "Receta Risotto de calabacín #84 saludable y sabrosa.",
+    "ingredientes": [
+      "237 g de garbanzos",
+      "1 unidad(es) de pepino",
+      "2 unidad(es) de aceite de oliva",
+      "171 g de pasta integral"
+    ],
+    "instrucciones": "1. Servir por 10 minutos. 2. Batir la mezcla. 3. Cortar la mezcla. 4. Batir hasta que esté listo.",
+    "tiempo_preparacion": 40,
+    "porciones": 1,
+    "calorias": 492,
+    "categoria": [
+      "equilibrada"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Risotto%20de%20calabacín%20#84",
+    "proteinas": 8.1,
+    "grasas": 24.4,
+    "carbohidratos": 60.0,
+    "fibra": 1.5,
+    "azucares": 21.4,
+    "alergenos": [],
+    "tags_saludables": [
+      "rico en fibra"
+    ],
+    "popularidad": 13,
+    "fecha_creacion": "2025-02-25T04:48:02"
+  },
+  {
+    "nombre": "Guiso de ternera #85",
+    "descripcion": "Receta Guiso de ternera #85 saludable y sabrosa.",
+    "ingredientes": [
+      "1 unidad(es) de ajos",
+      "22 g de miel",
+      "2 unidad(es) de pasta integral",
+      "204 g de tofu",
+      "191 g de aguacate",
+      "1 unidad(es) de plátano",
+      "65 g de remolacha"
+    ],
+    "instrucciones": "1. Batir a fuego medio. 2. Picar los ingredientes. 3. Hornear hasta que esté listo. 4. Saltear los ingredientes. 5. Hornear los ingredientes.",
+    "tiempo_preparacion": 25,
+    "porciones": 1,
+    "calorias": 442,
+    "categoria": [
+      "alta en proteínas"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Guiso%20de%20ternera%20#85",
+    "proteinas": 6.6,
+    "grasas": 13.9,
+    "carbohidratos": 72.8,
+    "fibra": 7.0,
+    "azucares": 23.4,
+    "alergenos": [],
+    "tags_saludables": [
+      "rico en fibra"
+    ],
+    "popularidad": 2,
+    "fecha_creacion": "2024-12-21T00:08:23"
+  },
+  {
+    "nombre": "Pasta integral con verduras #86",
+    "descripcion": "Receta Pasta integral con verduras #86 saludable y sabrosa.",
+    "ingredientes": [
+      "2 unidad(es) de tomate",
+      "2 unidad(es) de lentejas",
+      "1 unidad(es) de mantequilla",
+      "1 unidad(es) de pimiento",
+      "70 g de pollo",
+      "3 unidad(es) de avena",
+      "82 g de leche vegetal",
+      "210 g de plátano"
+    ],
+    "instrucciones": "1. Servir hasta que esté listo. 2. Cortar hasta que esté listo. 3. Servir hasta que esté listo. 4. Batir a fuego medio. 5. Cocer por 10 minutos.",
+    "tiempo_preparacion": 35,
+    "porciones": 3,
+    "calorias": 219,
+    "categoria": [
+      "alta en proteínas"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Pasta%20integral%20con%20verduras%20#86",
+    "proteinas": 16.5,
+    "grasas": 5.6,
+    "carbohidratos": 25.8,
+    "fibra": 1.1,
+    "azucares": 20.9,
+    "alergenos": [],
+    "tags_saludables": [
+      "sin gluten",
+      "bajo en carbohidratos",
+      "bajo en grasa"
+    ],
+    "popularidad": 175,
+    "fecha_creacion": "2023-12-03T13:32:32"
+  },
+  {
+    "nombre": "Batido de frutos rojos #87",
+    "descripcion": "Receta Batido de frutos rojos #87 saludable y sabrosa.",
+    "ingredientes": [
+      "3 unidad(es) de aguacate",
+      "2 unidad(es) de cebolla",
+      "90 g de champiñones",
+      "1 unidad(es) de pimienta"
+    ],
+    "instrucciones": "1. Hornear todo. 2. Batir todo. 3. Servir todo. 4. Cortar la mezcla. 5. Saltear por 10 minutos. 6. Servir los ingredientes. 7. Picar los ingredientes.",
+    "tiempo_preparacion": 25,
+    "porciones": 3,
+    "calorias": 182,
+    "categoria": [
+      "sin gluten",
+      "baja en carbohidratos"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Batido%20de%20frutos%20rojos%20#87",
+    "proteinas": 12.2,
+    "grasas": 10.2,
+    "carbohidratos": 10.5,
+    "fibra": 4.0,
+    "azucares": 10.2,
+    "alergenos": [
+      "avena"
+    ],
+    "tags_saludables": [
+      "bajo en azúcar",
+      "keto-friendly"
+    ],
+    "popularidad": 200,
+    "fecha_creacion": "2024-11-06T05:04:45"
+  },
+  {
+    "nombre": "Minestrone #88",
+    "descripcion": "Receta Minestrone #88 saludable y sabrosa.",
+    "ingredientes": [
+      "1 unidad(es) de ajos",
+      "1 unidad(es) de garbanzos",
+      "2 unidad(es) de plátano",
+      "44 g de aguacate",
+      "1 unidad(es) de pasta integral",
+      "73 g de tomate"
+    ],
+    "instrucciones": "1. Batir la mezcla. 2. Batir los ingredientes. 3. Picar la mezcla. 4. Saltear a fuego medio. 5. Batir a fuego medio. 6. Saltear la mezcla. 7. Hornear hasta que esté listo.",
+    "tiempo_preparacion": 10,
+    "porciones": 3,
+    "calorias": 168,
+    "categoria": [
+      "alta en proteínas"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Minestrone%20#88",
+    "proteinas": 7.1,
+    "grasas": 3.1,
+    "carbohidratos": 28.1,
+    "fibra": 1.8,
+    "azucares": 15.1,
+    "alergenos": [],
+    "tags_saludables": [
+      "vegano"
+    ],
+    "popularidad": 197,
+    "fecha_creacion": "2023-10-12T12:33:52"
+  },
+  {
+    "nombre": "Crema de champiñones #89",
+    "descripcion": "Receta Crema de champiñones #89 saludable y sabrosa.",
+    "ingredientes": [
+      "216 g de berenjena",
+      "1 unidad(es) de pimiento",
+      "2 unidad(es) de mantequilla",
+      "163 g de yogur"
+    ],
+    "instrucciones": "1. Mezclar a fuego medio. 2. Servir por 10 minutos. 3. Cortar los ingredientes. 4. Mezclar a fuego medio.",
+    "tiempo_preparacion": 10,
+    "porciones": 1,
+    "calorias": 279,
+    "categoria": [
+      "alta en proteínas"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Crema%20de%20champiñones%20#89",
+    "proteinas": 27.7,
+    "grasas": 13.1,
+    "carbohidratos": 12.8,
+    "fibra": 8.2,
+    "azucares": 13.4,
+    "alergenos": [],
+    "tags_saludables": [
+      "sencillo",
+      "bajo en carbohidratos",
+      "paleo-friendly"
+    ],
+    "popularidad": 164,
+    "fecha_creacion": "2025-08-17T05:02:04"
+  },
+  {
+    "nombre": "Sopa de lentejas #90",
+    "descripcion": "Receta Sopa de lentejas #90 saludable y sabrosa.",
+    "ingredientes": [
+      "3 unidad(es) de champiñones",
+      "1 unidad(es) de tofu",
+      "135 g de avena",
+      "2 unidad(es) de queso feta"
+    ],
+    "instrucciones": "1. Cortar la mezcla. 2. Servir los ingredientes. 3. Servir hasta que esté listo. 4. Mezclar la mezcla. 5. Hornear los ingredientes. 6. Cocer todo.",
+    "tiempo_preparacion": 60,
+    "porciones": 4,
+    "calorias": 424,
+    "categoria": [
+      "equilibrada"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Sopa%20de%20lentejas%20#90",
+    "proteinas": 31.2,
+    "grasas": 7.0,
+    "carbohidratos": 59.1,
+    "fibra": 5.6,
+    "azucares": 8.3,
+    "alergenos": [],
+    "tags_saludables": [
+      "sin gluten"
+    ],
+    "popularidad": 86,
+    "fecha_creacion": "2024-09-18T21:17:14"
+  },
+  {
+    "nombre": "Pisto manchego #91",
+    "descripcion": "Receta Pisto manchego #91 saludable y sabrosa.",
+    "ingredientes": [
+      "164 g de garbanzos",
+      "3 unidad(es) de pimiento",
+      "3 unidad(es) de leche vegetal",
+      "20 g de limón"
+    ],
+    "instrucciones": "1. Servir la mezcla. 2. Hornear hasta que esté listo. 3. Saltear los ingredientes. 4. Mezclar por 10 minutos.",
+    "tiempo_preparacion": 35,
+    "porciones": 2,
+    "calorias": 621,
+    "categoria": [
+      "paleo"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Pisto%20manchego%20#91",
+    "proteinas": 29.3,
+    "grasas": 21.2,
+    "carbohidratos": 78.4,
+    "fibra": 9.6,
+    "azucares": 7.6,
+    "alergenos": [
+      "sésamo"
+    ],
+    "tags_saludables": [
+      "sencillo",
+      "paleo-friendly",
+      "alto en proteínas"
+    ],
+    "popularidad": 83,
+    "fecha_creacion": "2024-06-03T03:30:51"
+  },
+  {
+    "nombre": "Guiso de ternera #92",
+    "descripcion": "Receta Guiso de ternera #92 saludable y sabrosa.",
+    "ingredientes": [
+      "3 unidad(es) de tofu",
+      "65 g de aceite de oliva",
+      "160 g de aguacate",
+      "167 g de ajos",
+      "225 g de champiñones"
+    ],
+    "instrucciones": "1. Cortar todo. 2. Hornear los ingredientes. 3. Cortar todo.",
+    "tiempo_preparacion": 20,
+    "porciones": 1,
+    "calorias": 459,
+    "categoria": [
+      "vegetariana",
+      "baja en carbohidratos"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Guiso%20de%20ternera%20#92",
+    "proteinas": 32.7,
+    "grasas": 17.9,
+    "carbohidratos": 42.0,
+    "fibra": 12.0,
+    "azucares": 6.1,
+    "alergenos": [
+      "gluten"
+    ],
+    "tags_saludables": [
+      "sencillo",
+      "rico en fibra",
+      "keto-friendly"
+    ],
+    "popularidad": 67,
+    "fecha_creacion": "2024-04-29T00:47:30"
+  },
+  {
+    "nombre": "Huevos revueltos con espinacas #93",
+    "descripcion": "Receta Huevos revueltos con espinacas #93 saludable y sabrosa.",
+    "ingredientes": [
+      "82 g de mantequilla",
+      "182 g de remolacha",
+      "83 g de yogur",
+      "3 unidad(es) de jengibre",
+      "1 unidad(es) de arroz integral",
+      "189 g de lechuga"
+    ],
+    "instrucciones": "1. Saltear la mezcla. 2. Picar los ingredientes. 3. Hornear la mezcla. 4. Picar todo. 5. Cortar los ingredientes. 6. Cortar a fuego medio. 7. Saltear la mezcla.",
+    "tiempo_preparacion": 35,
+    "porciones": 2,
+    "calorias": 364,
+    "categoria": [
+      "keto",
+      "sin gluten"
+    ],
+    "dificultad": "difícil",
+    "imagen": "https://via.placeholder.com/400x300?text=Huevos%20revueltos%20con%20espinacas%20#93",
+    "proteinas": 14.9,
+    "grasas": 17.1,
+    "carbohidratos": 37.7,
+    "fibra": 2.0,
+    "azucares": 24.2,
+    "alergenos": [],
+    "tags_saludables": [
+      "bajo en azúcar",
+      "rico en fibra"
+    ],
+    "popularidad": 95,
+    "fecha_creacion": "2023-12-09T14:56:02"
+  },
+  {
+    "nombre": "Sándwich de pavo y manzana #94",
+    "descripcion": "Receta Sándwich de pavo y manzana #94 saludable y sabrosa.",
+    "ingredientes": [
+      "2 unidad(es) de garbanzos",
+      "2 unidad(es) de champiñones",
+      "136 g de lentejas",
+      "3 unidad(es) de harina integral",
+      "205 g de plátano"
+    ],
+    "instrucciones": "1. Saltear la mezcla. 2. Mezclar la mezcla. 3. Cocer los ingredientes. 4. Saltear por 10 minutos. 5. Servir los ingredientes. 6. Cocer por 10 minutos.",
+    "tiempo_preparacion": 30,
+    "porciones": 4,
+    "calorias": 365,
+    "categoria": [
+      "paleo",
+      "vegana"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Sándwich%20de%20pavo%20y%20manzana%20#94",
+    "proteinas": 5.1,
+    "grasas": 23.1,
+    "carbohidratos": 34.2,
+    "fibra": 1.2,
+    "azucares": 0.4,
+    "alergenos": [
+      "sésamo"
+    ],
+    "tags_saludables": [
+      "rico en fibra"
+    ],
+    "popularidad": 59,
+    "fecha_creacion": "2024-02-03T18:42:25"
+  },
+  {
+    "nombre": "Risotto de calabacín #95",
+    "descripcion": "Receta Risotto de calabacín #95 saludable y sabrosa.",
+    "ingredientes": [
+      "2 unidad(es) de garbanzos",
+      "60 g de patatas",
+      "3 unidad(es) de quinoa",
+      "293 g de pollo",
+      "46 g de huevos",
+      "135 g de berenjena",
+      "265 g de remolacha"
+    ],
+    "instrucciones": "1. Cortar por 10 minutos. 2. Mezclar todo. 3. Mezclar a fuego medio. 4. Servir los ingredientes. 5. Batir a fuego medio. 6. Batir todo. 7. Servir los ingredientes.",
+    "tiempo_preparacion": 45,
+    "porciones": 2,
+    "calorias": 561,
+    "categoria": [
+      "keto",
+      "vegana"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Risotto%20de%20calabacín%20#95",
+    "proteinas": 28.9,
+    "grasas": 16.3,
+    "carbohidratos": 74.9,
+    "fibra": 2.1,
+    "azucares": 0.7,
+    "alergenos": [],
+    "tags_saludables": [
+      "bajo en carbohidratos"
+    ],
+    "popularidad": 90,
+    "fecha_creacion": "2025-03-14T03:54:09"
+  },
+  {
+    "nombre": "Pollo al curry #96",
+    "descripcion": "Receta Pollo al curry #96 saludable y sabrosa.",
+    "ingredientes": [
+      "3 unidad(es) de quinoa",
+      "2 unidad(es) de remolacha",
+      "1 unidad(es) de pasta integral",
+      "3 unidad(es) de avena",
+      "134 g de harina integral"
+    ],
+    "instrucciones": "1. Mezclar los ingredientes. 2. Mezclar a fuego medio. 3. Servir todo. 4. Hornear todo. 5. Cocer los ingredientes.",
+    "tiempo_preparacion": 10,
+    "porciones": 3,
+    "calorias": 323,
+    "categoria": [
+      "sin gluten",
+      "vegana"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Pollo%20al%20curry%20#96",
+    "proteinas": 39.4,
+    "grasas": 8.3,
+    "carbohidratos": 22.9,
+    "fibra": 10.5,
+    "azucares": 17.5,
+    "alergenos": [
+      "marisco"
+    ],
+    "tags_saludables": [
+      "keto-friendly",
+      "bajo en azúcar"
+    ],
+    "popularidad": 176,
+    "fecha_creacion": "2024-08-25T05:37:16"
+  },
+  {
+    "nombre": "Salmón marinado en soja #97",
+    "descripcion": "Receta Salmón marinado en soja #97 saludable y sabrosa.",
+    "ingredientes": [
+      "224 g de yogur",
+      "65 g de pepino",
+      "279 g de aceite de oliva",
+      "1 unidad(es) de calabacín",
+      "1 unidad(es) de miel",
+      "132 g de berenjena",
+      "147 g de remolacha"
+    ],
+    "instrucciones": "1. Cortar a fuego medio. 2. Cocer los ingredientes. 3. Hornear por 10 minutos.",
+    "tiempo_preparacion": 30,
+    "porciones": 1,
+    "calorias": 402,
+    "categoria": [
+      "vegana"
+    ],
+    "dificultad": "media",
+    "imagen": "https://via.placeholder.com/400x300?text=Salmón%20marinado%20en%20soja%20#97",
+    "proteinas": 33.9,
+    "grasas": 23.0,
+    "carbohidratos": 14.9,
+    "fibra": 10.4,
+    "azucares": 13.1,
+    "alergenos": [],
+    "tags_saludables": [
+      "rico en fibra"
+    ],
+    "popularidad": 38,
+    "fecha_creacion": "2024-02-16T16:58:34"
+  },
+  {
+    "nombre": "Crema de calabaza #98",
+    "descripcion": "Receta Crema de calabaza #98 saludable y sabrosa.",
+    "ingredientes": [
+      "1 unidad(es) de avena",
+      "153 g de yogur",
+      "103 g de miel",
+      "206 g de aceite de oliva",
+      "173 g de tofu"
+    ],
+    "instrucciones": "1. Mezclar la mezcla. 2. Saltear por 10 minutos. 3. Servir la mezcla. 4. Cortar la mezcla.",
+    "tiempo_preparacion": 20,
+    "porciones": 2,
+    "calorias": 599,
+    "categoria": [
+      "keto"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Crema%20de%20calabaza%20#98",
+    "proteinas": 34.8,
+    "grasas": 19.8,
+    "carbohidratos": 70.6,
+    "fibra": 2.9,
+    "azucares": 19.1,
+    "alergenos": [
+      "frutos secos",
+      "pescado"
+    ],
+    "tags_saludables": [
+      "rico en fibra",
+      "bajo en grasa"
+    ],
+    "popularidad": 9,
+    "fecha_creacion": "2025-06-22T14:47:30"
+  },
+  {
+    "nombre": "Ensalada mediterránea #99",
+    "descripcion": "Receta Ensalada mediterránea #99 saludable y sabrosa.",
+    "ingredientes": [
+      "2 unidad(es) de yogur",
+      "186 g de tomate",
+      "166 g de cebolla",
+      "1 unidad(es) de garbanzos"
+    ],
+    "instrucciones": "1. Cortar a fuego medio. 2. Picar a fuego medio. 3. Cocer la mezcla. 4. Cortar a fuego medio.",
+    "tiempo_preparacion": 15,
+    "porciones": 2,
+    "calorias": 317,
+    "categoria": [
+      "vegana"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Ensalada%20mediterránea%20#99",
+    "proteinas": 7.9,
+    "grasas": 13.0,
+    "carbohidratos": 42.3,
+    "fibra": 9.4,
+    "azucares": 9.3,
+    "alergenos": [
+      "pescado"
+    ],
+    "tags_saludables": [
+      "keto-friendly",
+      "bajo en carbohidratos",
+      "paleo-friendly"
+    ],
+    "popularidad": 119,
+    "fecha_creacion": "2025-07-05T06:28:16"
+  },
+  {
+    "nombre": "Lasaña de verduras #100",
+    "descripcion": "Receta Lasaña de verduras #100 saludable y sabrosa.",
+    "ingredientes": [
+      "3 unidad(es) de pollo",
+      "31 g de pimienta",
+      "3 unidad(es) de ajos",
+      "2 unidad(es) de pimiento",
+      "2 unidad(es) de huevos",
+      "72 g de quinoa",
+      "244 g de plátano"
+    ],
+    "instrucciones": "1. Servir por 10 minutos. 2. Batir la mezcla. 3. Saltear la mezcla. 4. Cocer a fuego medio. 5. Saltear los ingredientes. 6. Mezclar a fuego medio.",
+    "tiempo_preparacion": 25,
+    "porciones": 2,
+    "calorias": 438,
+    "categoria": [
+      "vegana",
+      "baja en carbohidratos"
+    ],
+    "dificultad": "fácil",
+    "imagen": "https://via.placeholder.com/400x300?text=Lasaña%20de%20verduras%20#100",
+    "proteinas": 24.7,
+    "grasas": 14.4,
+    "carbohidratos": 52.5,
+    "fibra": 8.9,
+    "azucares": 0.3,
+    "alergenos": [
+      "huevo"
+    ],
+    "tags_saludables": [
+      "paleo-friendly"
+    ],
+    "popularidad": 79,
+    "fecha_creacion": "2025-03-23T17:45:42"
+  }
+]

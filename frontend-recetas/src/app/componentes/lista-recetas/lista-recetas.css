@@ -1,0 +1,376 @@
+/* Contenedor de tarjetas */
+.recetas-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f1f8e9; /* coincide con el fondo del formulario */
+}
+
+/* Tarjetas de recetas */
+.receta-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.receta-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+/* Imagen */
+.receta-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+  transition: transform 0.3s ease;
+}
+
+.receta-card:hover img {
+  transform: scale(1.05);
+}
+
+/* Información de la tarjeta */
+.receta-info {
+  padding: 15px;
+  flex-grow: 1;
+}
+
+.receta-info h3 {
+  margin: 0 0 10px;
+  font-size: 1.4em;
+  font-weight: 600;
+  color: #558b2f; /* verde suave que combine con el navbar */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.receta-info p {
+  margin: 4px 0;
+  font-size: 0.95em;
+  color: #555555;
+}
+
+/* Botones dentro de la tarjeta */
+.receta-card button {
+  margin-top: 8px;
+  margin-right: 5px;
+  padding: 7px 14px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 0.95em;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.receta-card button:first-of-type {
+  background-color: #e67e22; /* naranja pastel, combina con verde */
+  color: #fff;
+}
+
+.receta-card button:first-of-type:hover {
+  background-color: #d35400;
+}
+
+.receta-card button:last-of-type {
+  background-color: #7cb342; /* verde navbar/formulario */
+  color: #fff;
+}
+
+.receta-card button:last-of-type:hover {
+  background-color: #558b2f;
+}
+
+/* Modal backdrop */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 1000;
+  backdrop-filter: blur(2px);
+  transition: opacity 0.3s ease;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f8e9; /* mismo verde claro */
+  padding: 25px 30px;
+  z-index: 1001;
+  max-width: 600px;
+  width: 90%;
+  border-radius: 15px;
+  overflow-y: auto;
+  max-height: 80vh;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+  animation: slideDown 0.3s ease;
+}
+
+/* Animación modal */
+@keyframes slideDown {
+  from {
+    transform: translate(-50%, -55%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+}
+
+/* Contenido del modal */
+.modal-content h2 {
+  margin-top: 0;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  color: #558b2f;
+}
+
+.modal-content p {
+  margin: 8px 0;
+  line-height: 1.5;
+  font-size: 0.95em;
+  color: #555555;
+}
+
+.modal-content button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 16px;
+  background-color: #e67e22;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.modal-content button:hover {
+  background-color: #d35400;
+}
+
+/* Contenedor principal */
+.contenedor-principal {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Filtros */
+.filtros-container {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.filtro-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.filtro-item label {
+  font-weight: 600;
+  color: #34495e;
+  margin: 0;
+}
+
+.filtro-item select {
+  padding: 0.75rem 1rem;
+  border: 2px solid #e0e6ed;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #f8f9fa;
+  cursor: pointer;
+  min-width: 250px;
+  transition: all 0.3s ease;
+}
+
+.filtro-item select:focus {
+  outline: none;
+  border-color: #3498db;
+  background-color: white;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+}
+
+.resultados-info {
+  color: #7f8c8d;
+  font-weight: 500;
+}
+
+.resultados-info p {
+  margin: 0;
+}
+
+/* Badge de categoría */
+.categoria-badge {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.categoria-badge-modal {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* No resultados */
+.no-resultados {
+  text-align: center;
+  padding: 3rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.no-resultados p {
+  color: #95a5a6;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .filtros-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .filtro-item {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .filtro-item select {
+    width: 100%;
+  }
+}
+
+/* Estilos para el buscador de tags */
+.autocomplete-container {
+  position: relative;
+  width: 100%;
+}
+
+.tag-input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.sugerencias {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  border: 1px solid #ddd;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  max-height: 200px;
+  overflow-y: auto;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.sugerencia-item {
+  padding: 10px 12px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.sugerencia-item:hover {
+  background: #f0f0f0;
+}
+
+/* Tags seleccionados (chips) */
+.tags-seleccionados {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 15px 0;
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.tag-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #4CAF50;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.tag-chip-remove {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+
+.tag-chip-remove:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* ✅ Botón para ir al login (usuarios no logueados) */
+.btn-login-required {
+  background-color: #3498db !important;
+  cursor: pointer !important;
+  opacity: 0.9;
+}
+
+.btn-login-required:hover {
+  background-color: #2980b9 !important;
+  transform: translateY(-2px);
+}

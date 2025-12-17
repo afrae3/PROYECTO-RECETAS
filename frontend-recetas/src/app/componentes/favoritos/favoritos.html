@@ -1,0 +1,20 @@
+<div class="favoritos-container">
+  <h2>Mis Favoritos</h2>
+
+  <button (click)="clearTodos()" [disabled]="favoritos.length === 0">
+    Limpiar todos
+  </button>
+
+  <p *ngIf="favoritos.length === 0">No tienes recetas favoritas aún.</p>
+
+  <ul *ngIf="favoritos.length > 0">
+    <li *ngFor="let receta of favoritos" class="favorito-item">
+      <img [src]="receta.imagen ? 'imagen/' + receta.imagen : 'imagen/comida2.jpg'" alt="{{ receta.nombre }}" class="favorito-imagen">
+      <div class="favorito-info">
+        <h3>{{ receta.nombre }}</h3>
+        <p>{{ receta.descripcion }}</p>
+      </div>
+      <button (click)="eliminarFavorito(receta)">Eliminar</button>
+    </li>
+  </ul>
+</div>

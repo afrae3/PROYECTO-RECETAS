@@ -1,0 +1,30 @@
+<nav class="navbar">
+  <div class="logo">
+    🍽️ Mis Recetas
+  </div>
+
+  <div class="hamburger" (click)="toggleMenu()" [class.active]="menuAbierto">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <ul class="nav-links" [class.active]="menuAbierto">
+    <li class="close-btn" (click)="toggleMenu()">✖</li>
+
+    <li *ngIf="auth.isLoggedIn()">
+      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" (click)="toggleMenu()">Inicio</a>
+    </li>
+    <li *ngIf="auth.isLoggedIn() && !isAdmin()"><a routerLink="/favoritos" routerLinkActive="active" (click)="toggleMenu()">Favoritos</a></li>
+    <li *ngIf="auth.isLoggedIn() && !isAdmin()"><a routerLink="/calendario" routerLinkActive="active" (click)="toggleMenu()">Calendario</a></li>
+    <li *ngIf="auth.isLoggedIn() && !isAdmin()"><a routerLink="/dashboard" routerLinkActive="active" (click)="toggleMenu()">Dashboard</a></li>
+
+    <li *ngIf="isAdmin()"><a routerLink="/gestion-recetas" routerLinkActive="active" (click)="toggleMenu()">Gestión Recetas</a></li>
+    <li *ngIf="isAdmin()"><a routerLink="/gestion-usuarios" routerLinkActive="active" (click)="toggleMenu()">Gestión Usuarios</a></li>
+
+    <li *ngIf="!auth.isLoggedIn()" class="btn-nav login"><a routerLink="/login" routerLinkActive="active" (click)="toggleMenu()">Iniciar sesión</a></li>
+    <li *ngIf="!auth.isLoggedIn()" class="btn-nav registro"><a routerLink="/registro" routerLinkActive="active" (click)="toggleMenu()">Registro</a></li>
+
+    <li *ngIf="auth.isLoggedIn()" class="logout"><a href="#" (click)="logout(); toggleMenu()">Cerrar sesión</a></li>
+  </ul>
+</nav>

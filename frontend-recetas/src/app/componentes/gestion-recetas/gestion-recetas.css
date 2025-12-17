@@ -1,0 +1,405 @@
+/* gestion-recetas.css */
+
+.container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Formulario */
+form {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 2rem;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+  color: #34495e;
+  font-size: 0.95rem;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #e0e6ed;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  background-color: #f8f9fa;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: #3498db;
+  background-color: white;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+  font-family: inherit;
+}
+
+/* Input de archivo */
+input[type="file"] {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px dashed #3498db;
+  border-radius: 8px;
+  background-color: #ebf5fb;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+input[type="file"]:hover {
+  border-color: #2980b9;
+  background-color: #d6eaf8;
+}
+
+/* Preview de imagen */
+.image-preview {
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  border: 2px solid #3498db;
+  border-radius: 12px;
+  text-align: center;
+  background: linear-gradient(135deg, #ebf5fb 0%, #d6eaf8 100%);
+}
+
+.image-preview img {
+  max-width: 350px;
+  max-height: 350px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.image-preview img:hover {
+  transform: scale(1.05);
+}
+
+/* Grid para tiempo y porciones */
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+/* Selectores inline */
+.inline-select,
+.inline-input {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-top: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.inline-select select,
+.inline-select input {
+  flex: 1;
+  min-width: 120px;
+}
+
+.inline-input input {
+  flex: 1;
+}
+
+/* Chips (ingredientes, alérgenos, tags) */
+.chips {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.8rem;
+}
+
+.chips li {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.8rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+  transition: all 0.3s ease;
+}
+
+.chips li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+/* Lista de instrucciones */
+.instrucciones {
+  margin-top: 0.8rem;
+  padding-left: 1.5rem;
+}
+
+.instrucciones li {
+  margin: 0.8rem 0;
+  padding: 0.8rem;
+  background-color: #fef5e7;
+  border-left: 4px solid #f39c12;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.instrucciones li:hover {
+  background-color: #fdebd0;
+  transform: translateX(5px);
+}
+
+.instruccion-vista,
+.instruccion-edicion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.instruccion-vista span {
+  flex: 1;
+}
+
+.instruccion-acciones {
+  display: flex;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.input-editar-instruccion {
+  flex: 1;
+  padding: 0.5rem;
+  border: 2px solid #3498db;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+/* Botones */
+button {
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+button[type="submit"] {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+button[type="submit"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+}
+
+button[type="button"] {
+  background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+  color: white;
+}
+
+button[type="button"]:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(17, 153, 142, 0.4);
+}
+
+button.small {
+  padding: 0.3rem 0.6rem;
+  font-size: 0.85rem;
+  background: #e74c3c;
+  border-radius: 15px;
+}
+
+button.small:hover {
+  background: #c0392b;
+}
+
+button.editar {
+  background: #3498db;
+}
+
+button.editar:hover {
+  background: #2980b9;
+}
+
+button.guardar {
+  background: #27ae60;
+}
+
+button.guardar:hover {
+  background: #229954;
+}
+
+button.cancelar {
+  background: #95a5a6;
+}
+
+button.cancelar:hover {
+  background: #7f8c8d;
+}
+
+button.eliminar {
+  background: linear-gradient(135deg, #eb3349 0%, #f45c43 100%);
+}
+
+button.eliminar:hover {
+  background: linear-gradient(135deg, #c0392b 0%, #e74c3c 100%);
+  transform: scale(1.05);
+}
+
+.actions {
+  margin-top: 2rem;
+}
+
+/* Lista de recetas */
+.list-actions {
+  margin: 2rem 0 1rem;
+  text-align: center;
+}
+
+.list-actions button {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: white;
+  padding: 0.8rem 2rem;
+}
+
+.list-actions button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(240, 147, 251, 0.5);
+}
+
+/* Tabla */
+table {
+  width: 100%;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-collapse: collapse;
+}
+
+thead {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+thead th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 0.9rem;
+}
+
+tbody tr {
+  border-bottom: 1px solid #ecf0f1;
+  transition: background-color 0.3s ease;
+}
+
+tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+tbody td {
+  padding: 1rem;
+  color: #2c3e50;
+}
+
+.tabla-imagen {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.tabla-imagen:hover {
+  transform: scale(1.2);
+}
+
+tbody td button {
+  margin-right: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.85rem;
+}
+
+/* Mensaje cuando no hay recetas */
+.muted {
+  text-align: center;
+  color: #95a5a6;
+  font-style: italic;
+  padding: 2rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .inline-select,
+  .inline-input {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  table {
+    font-size: 0.85rem;
+  }
+
+  tbody td button {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+  }
+}

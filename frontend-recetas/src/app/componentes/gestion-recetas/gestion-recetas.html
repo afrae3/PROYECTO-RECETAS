@@ -1,0 +1,157 @@
+<div class="container">
+  <h2>{{ modoEdicion ? 'Editar receta' : 'Crear receta' }}</h2>
+
+  <form (ngSubmit)="guardarReceta()">
+    <label>Nombre:</label>
+    <input [(ngModel)]="receta.nombre" name="nombre" required>
+
+    <label>Descripción:</label>
+    <textarea [(ngModel)]="receta.descripcion" name="descripcion"></textarea>
+
+    <label>Imagen:</label>
+    <input type="file" 
+           accept="image/*" 
+           (change)="onFileSelected($event)"
+           name="imagenFile">
+    
+    <div *ngIf="imagenPreview" class="image-preview">
+      <img [src]="imagenPreview" alt="Preview">
+    </div>
+
+    <div class="grid-2">
+      <div>
+        <label>Tiempo (min):</label>
+        <input type="number" [(ngModel)]="receta.tiempoPreparacion" name="tiempo" />
+      </div>
+      <div>
+        <label>Porciones:</label>
+        <input type="number" [(ngModel)]="receta.porciones" name="porciones" />
+      </div>
+    </div>
+
+    <label>Categoría:</label>
+    <select [(ngModel)]="receta.categoria" name="categoriaSelect">
+      <option [ngValue]="undefined">Selecciona una categoría</option>
+      <option *ngFor="let c of categorias" [ngValue]="c.id">{{ c.nombre }}</option>
+    </select>
+
+    <label>Dificultad:</label>
+    <select [(ngModel)]="receta.dificultad" name="dificultadSelect">
+      <option [ngValue]="null">Selecciona dificultad</option>
+      <option value="Fácil">Fácil</option>
+      <option value="Media">Media</option>
+      <option value="Difícil">Difícil</option>
+    </select>
+
+    <label>Ingredientes:</label>
+    <div class="inline-select">
+      <select [(ngModel)]="ingredienteSeleccionado" name="ingredienteSelect">
+        <option [ngValue]="null">Selecciona ingrediente</option>
+        <option *ngFor="let ing of ingredientes" [ngValue]="ing.id">{{ ing.nombre }}</option>
+      </select>
+      <input [(ngModel)]="cantidadIngrediente" name="cantidadIng" type="number" placeholder="Cantidad" />
+      <select [(ngModel)]="medidaIngrediente" name="medidaSelect">
+        <option value="g">g</option>
+        <option value="ml">ml</option>
+        <option value="unidad">unidad</option>
+      </select>
+      <button type="button" (click)="agregarIngrediente()">Añadir</button>
+    </div>
+    <ul class="chips">
+      <li *ngFor="let i of receta.ingredientes; let idx = index">
+        {{ i.nombre }} - {{ i.cantidad }} {{ i.medida }}
+        <button type="button" class="small" (click)="quitarIngrediente(idx)">x</button>
+      </li>
+    </ul>
+
+    <label>Alergenos:</label>
+    <div class="inline-select">
+      <select [(ngModel)]="alergenoSeleccionado" name="alergenoSelect">
+        <option [ngValue]="null">Selecciona alérgeno</option>
+        <option *ngFor="let a of alergenos" [ngValue]="a.id">{{ a.nombre }}</option>
+      </select>
+      <button type="button" (click)="agregarAlergeno()">Añadir</button>
+    </div>
+    <ul class="chips">
+      <li *ngFor="let alergenoId of receta.alergenos; let idx = index">
+        {{ getNombreAlergeno(alergenoId) }}
+        <button type="button" class="small" (click)="quitarAlergeno(idx)">x</button>
+      </li>
+    </ul>
+
+    <label>Tags Saludables:</label>
+    <div class="inline-select">
+      <select [(ngModel)]="tagSeleccionado" name="tagSelect">
+        <option [ngValue]="null">Selecciona tag</option>
+        <option *ngFor="let t of tags" [ngValue]="t.id">{{ t.nombre }}</option>
+      </select>
+      <button type="button" (click)="agregarTag()">Añadir</button>
+    </div>
+    <ul class="chips">
+      <li *ngFor="let tagId of receta.tagsSaludables; let idx = index">
+        {{ getNombreTag(tagId) }}
+        <button type="button" class="small" (click)="quitarTag(idx)">x</button>
+      </li>
+    </ul>
+
+    <label>Instrucciones:</label>
+    <div class="inline-input">
+      <input [(ngModel)]="nuevaInstruccion" name="nuevaInstruccion" placeholder="Escribe un paso">
+      <button type="button" (click)="agregarInstruccion()">Agregar paso</button>
+    </div>
+    <ol class="instrucciones">
+      <li *ngFor="let paso of receta.instrucciones; let i = index">
+        <div *ngIf="instruccionEditando !== i" class="instruccion-vista">
+          <span>{{ paso }}</span>
+          <div class="instruccion-acciones">
+            <button type="button" class="small editar" (click)="editarInstruccion(i)">Editar</button>
+            <button type="button" class="small" (click)="quitarInstruccion(i)">Eliminar</button>
+          </div>
+        </div>
+        <div *ngIf="instruccionEditando === i" class="instruccion-edicion">
+          <input [(ngModel)]="textoInstruccionEditando" 
+                 [name]="'instruccion-edit-' + i" 
+                 class="input-editar-instruccion">
+          <div class="instruccion-acciones">
+            <button type="button" class="small guardar" (click)="guardarEdicionInstruccion(i)">Guardar</button>
+            <button type="button" class="small cancelar" (click)="cancelarEdicionInstruccion()">Cancelar</button>
+          </div>
+        </div>
+      </li>
+    </ol>
+
+    <div class="actions">
+      <button type="submit">{{ modoEdicion ? 'Actualizar' : 'Guardar' }}</button>
+    </div>
+  </form>
+
+  <div class="list-actions">
+    <button (click)="cargarRecetas()">Listar Recetas</button>
+  </div>
+  <table *ngIf="recetas.length > 0">
+    <thead>
+      <tr>
+        <th>Imagen</th>
+        <th>Nombre</th>
+        <th>Categoría</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let r of recetas">
+        <td>
+          <img [src]="r.imagen ? 'imagen/' + r.imagen : 'imagen/comida2.jpg'" 
+               alt="{{ r.nombre }}"
+               class="tabla-imagen">
+        </td>
+        <td>{{ r.nombre }}</td>
+        <td>{{ getNombreCategoria(r.categoria) }}</td>
+        <td>
+          <button (click)="editar(r)">Editar</button>
+          <button class="eliminar" (click)="borrar(r.id)">Eliminar</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <p *ngIf="recetas.length === 0" class="muted">No hay recetas para mostrar</p>
+</div>

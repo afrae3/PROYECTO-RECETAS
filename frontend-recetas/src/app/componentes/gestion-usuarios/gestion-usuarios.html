@@ -1,0 +1,72 @@
+<div class="gestion-container">
+  <h2>Gestión de Usuarios</h2>
+
+  <div class="acciones-principales">
+    <button class="btn-nuevo" (click)="toggleFormulario()">
+      <span class="btn-icon">{{ mostrarFormulario ? '✕' : '+' }}</span>
+      {{ mostrarFormulario ? 'Cancelar' : 'Nuevo Usuario' }}
+    </button>
+  </div>
+
+  <div class="formulario-nuevo" *ngIf="mostrarFormulario">
+    <h3>Crear Nuevo Usuario</h3>
+    <div class="form-group">
+      <label>Email:</label>
+      <input type="email" [(ngModel)]="nuevoEmail" placeholder="usuario@ejemplo.com" />
+    </div>
+    <div class="form-group">
+      <label>Contraseña:</label>
+      <input type="password" [(ngModel)]="nuevoPassword" placeholder="Contraseña" />
+    </div>
+    <div class="form-group">
+      <label>Role:</label>
+      <select [(ngModel)]="nuevoRoles">
+        <option value="ROLE_USER">Usuario</option>
+        <option value="ROLE_ADMIN">Administrador</option>
+      </select>
+    </div>
+    <div class="form-actions">
+      <button class="btn-crear" (click)="crearUsuario()">Crear Usuario</button>
+      <button class="btn-cancelar-form" (click)="toggleFormulario()">Cancelar</button>
+    </div>
+  </div>
+
+  <table *ngIf="usuarios.length > 0">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Email</th>
+        <th>Roles</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let u of usuarios" [class.editing]="editUserId === u.id">
+        <td>{{ u.id }}</td>
+
+        <td *ngIf="editUserId !== u.id">{{ u.email }}</td>
+        <td *ngIf="editUserId === u.id">
+          <input type="text" [(ngModel)]="editEmail" placeholder="Email del usuario" />
+        </td>
+
+        <td *ngIf="editUserId !== u.id">
+          <span class="roles-badge">{{ u.roles.join(', ') || 'Sin roles' }}</span>
+        </td>
+        <td *ngIf="editUserId === u.id">
+          <input type="text" [(ngModel)]="editRoles" placeholder="ROLE_USER, ROLE_ADMIN" />
+        </td>
+
+        <td>
+          <button class="btn-editar" *ngIf="editUserId !== u.id" (click)="editarUsuario(u)">Editar</button>
+          <button class="btn-guardar" *ngIf="editUserId === u.id" (click)="guardarUsuario()">Guardar</button>
+          <button class="btn-cancelar" *ngIf="editUserId === u.id" (click)="cancelarEdicion()">Cancelar</button>
+          <button class="btn-borrar" (click)="borrarUsuario(u.id)">Borrar</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div *ngIf="usuarios.length === 0" class="empty-message">
+    <p>No hay usuarios registrados en el sistema</p>
+  </div>
+</div>

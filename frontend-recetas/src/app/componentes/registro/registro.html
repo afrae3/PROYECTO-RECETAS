@@ -1,0 +1,49 @@
+<h2>Registro de Usuario</h2>
+
+<form (ngSubmit)="onSubmit()" #registroForm="ngForm" class="registro-form">
+  <!-- Mensaje de error -->
+  <div *ngIf="mostrarError" class="mensaje-error">
+    <span class="icon-error">⚠️</span>
+    <span>{{ mensaje }}</span>
+  </div>
+
+  <!-- Mensaje de éxito -->
+  <div *ngIf="mostrarExito" class="mensaje-exito">
+    <span class="icon-exito">✓</span>
+    <span>{{ mensaje }}</span>
+  </div>
+
+  <div class="input-group">
+    <span class="icon">📧</span>
+    <input 
+      type="email" 
+      id="email" 
+      [(ngModel)]="email" 
+      name="email" 
+      placeholder="Tu correo"
+      required 
+      autocomplete="email"
+      [class.input-error]="mostrarError">
+  </div>
+
+  <div class="input-group">
+    <span class="icon">🔒</span>
+    <input 
+      type="password" 
+      id="password" 
+      [(ngModel)]="password" 
+      name="password" 
+      placeholder="Tu contraseña"
+      required 
+      autocomplete="new-password"
+      [class.input-error]="mostrarError">
+  </div>
+
+  <button type="submit" [disabled]="!registroForm.form.valid || cargando">
+    {{ cargando ? 'Registrando...' : 'Registrar' }}
+  </button>
+</form>
+
+<p class="link-login">
+  ¿Ya tienes cuenta? <a routerLink="/login">Inicia sesión aquí</a>
+</p>

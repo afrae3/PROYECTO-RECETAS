@@ -1,0 +1,29 @@
+security:
+    password_hashers:
+        Symfony\Component\Security\Core\User\PasswordAuthenticatedUserInterface: 'auto'
+
+    providers:
+        app_user_provider:
+            entity:
+                class: App\Entity\User
+                property: email
+
+    firewalls:
+        dev:
+            pattern: ^/(_(profiler|wdt)|css|images|js)/
+            security: false
+
+        main:
+            lazy: true
+            provider: app_user_provider
+            json_login:
+                check_path: /api/login
+                username_path: email
+                password_path: password
+            logout:
+                path: /api/logout
+                invalidate_session: true
+            stateless: true
+
+    # access_control comentado para que favoritos sea público
+    # - { path: ^/api/favoritos, roles: ROLE_USER }

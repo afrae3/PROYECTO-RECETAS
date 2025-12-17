@@ -1,0 +1,101 @@
+.favoritos-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f1f8e9; /* mismo verde claro que formulario */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.favoritos-container h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #558b2f; /* verde principal */
+  font-size: 1.6rem;
+}
+
+.favoritos-container button {
+  background-color: #e67e22; /* naranja suave */
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.favoritos-container button:disabled {
+  background-color: #c8e6c9;
+  cursor: not-allowed;
+}
+
+.favoritos-container button:hover:not(:disabled) {
+  background-color: #d35400;
+  transform: scale(1.03);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.favorito-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: #ffffff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.favorito-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+}
+
+.favorito-imagen {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 1rem;
+  border: 1px solid #ccc;
+}
+
+.favorito-info {
+  flex: 1;
+}
+
+.favorito-info h3 {
+  margin: 0 0 0.3rem 0;
+  font-size: 1.2rem;
+  color: #33691e; /* verde oscuro */
+}
+
+.favorito-info p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #555555;
+}
+
+.favorito-item button {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.favorito-item button:hover {
+  background-color: #ff4b4b;
+  transform: scale(1.03);
+}
