@@ -12,6 +12,7 @@ nelmio_cors:
     paths:
         '^/':
             allow_credentials: true
+            origin_regex: true  # ← AGREGAR ESTA LÍNEA
             allow_origin: ['%env(CORS_ALLOW_ORIGIN)%']
             allow_methods: ['GET', 'OPTIONS', 'POST', 'PUT', 'PATCH', 'DELETE']
             allow_headers: ['Content-Type', 'Authorization']
