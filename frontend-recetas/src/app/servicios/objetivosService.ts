@@ -21,7 +21,7 @@ export interface Objetivos extends ObjetivosPersonales {
 
 @Injectable({ providedIn: 'root' })
 export class ObjetivosService {
-  private apiUrl = 'http://127.0.0.1:8000/api/objetivos';
+  private apiUrl = 'https://proyecto-recetas-backend.onrender.com/api/objetivos';
 
   constructor(private http: HttpClient) {}
 

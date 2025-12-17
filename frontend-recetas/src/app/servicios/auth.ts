@@ -17,7 +17,7 @@ export interface LoginResponse {
   providedIn: 'root'
 })
 export class Auth {
-  private apiUrl = 'http://127.0.0.1:8000/api/login';
+  private apiUrl = 'https://proyecto-recetas-backend.onrender.com/api/login';
 
   constructor(private http: HttpClient) {}
 

@@ -34,11 +34,11 @@ export interface Receta {
   providedIn: 'root'
 })
 export class RecetasService {
-  private apiUrl = 'http://127.0.0.1:8000/api/recetas';
-  private apiCategorias = 'http://127.0.0.1:8000/api/categorias';
-  private apiIngredientes = 'http://127.0.0.1:8000/api/ingredientes';
-  private apiTags = 'http://127.0.0.1:8000/api/tags-saludables';
-  private apiAlergenos = 'http://127.0.0.1:8000/api/alergenos';
+  private apiUrl = 'https://proyecto-recetas-backend.onrender.com/api/recetas';
+  private apiCategorias = 'https://proyecto-recetas-backend.onrender.com/api/categorias';
+  private apiIngredientes = 'https://proyecto-recetas-backend.onrender.com/api/ingredientes';
+  private apiTags = 'https://proyecto-recetas-backend.onrender.com/api/tags-saludables';
+  private apiAlergenos = 'https://proyecto-recetas-backend.onrender.com/api/alergenos';
 
   constructor(private http: HttpClient) {}
 

@@ -7,7 +7,7 @@ import { Receta } from './recetas';
   providedIn: 'root'
 })
 export class FavoritosService {
-  private apiUrl = 'http://127.0.0.1:8000/api/favoritos';
+  private apiUrl = 'https://proyecto-recetas-backend.onrender.com/api/favoritos';
 
   constructor(private http: HttpClient) {}
 

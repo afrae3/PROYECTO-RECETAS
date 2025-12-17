@@ -53,7 +53,7 @@ export interface EstadisticasResponse {
 
 @Injectable({ providedIn: 'root' })
 export class DashboardService { 
-  private apiUrl = 'http://127.0.0.1:8000/api/dashboard';
+  private apiUrl = 'https://proyecto-recetas-backend.onrender.com/api/dashboard';
 
   constructor(private http: HttpClient) {}
 

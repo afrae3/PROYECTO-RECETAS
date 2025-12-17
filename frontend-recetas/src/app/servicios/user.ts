@@ -19,8 +19,8 @@ export interface UserData {
   providedIn: 'root'
 })
 export class User {
-  private apiUrlRegister = 'http://127.0.0.1:8000/api/register';
-  private apiUrlUsers = 'http://127.0.0.1:8000/api/users';
+  private apiUrlRegister = 'https://proyecto-recetas-backend.onrender.com/api/register';
+  private apiUrlUsers = 'https://proyecto-recetas-backend.onrender.com/api/users';
 
   constructor(private http: HttpClient) {}
 

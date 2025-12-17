@@ -12,7 +12,7 @@ export interface Comida {
 
 @Injectable({ providedIn: 'root' })
 export class MenuSemanalService {
-  private apiUrl = 'http://127.0.0.1:8000/api/menu-semanal';
+  private apiUrl = 'https://proyecto-recetas-backend.onrender.com/api/menu-semanal';
   private menuSubject = new BehaviorSubject<Comida[]>([]);
 
   constructor(private http: HttpClient, private auth: Auth) {}
