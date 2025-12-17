@@ -19,7 +19,7 @@ WORKDIR /var/www/html
 COPY . .
 
 # Instalar dependencias (INCLUYE dev para DebugBundle)
-RUN composer install --optimize-autoloader --no-interaction
+RUN composer install --no-dev --optimize-autoloader --no-interaction
 
 # Configurar permisos
 RUN chown -R www-data:www-data /var/www/html/var
